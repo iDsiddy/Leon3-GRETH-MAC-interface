@@ -1,0 +1,11 @@
+#
+# An unexpected error has occurred (11) Segmentation fault
+#
+Stack:
+/home/dhruv/2025.2.1/Vivado/tps/lnx64/jre21.0.5_11/lib//server/libjvm.so(+0xe7195c) [0x73e75187195c]
+/home/dhruv/2025.2.1/Vivado/tps/lnx64/jre21.0.5_11/lib//server/libjvm.so(JVM_handle_linux_signal+0x23e) [0x73e75187242e]
+/usr/lib/x86_64-linux-gnu/libc.so.6(+0x45cb0) [0x73e793445cb0]
+/home/dhruv/2025.2.1/Vivado/lib/lnx64.o/Ubuntu/libstdc++.so.6(__dynamic_cast+0x1a) [0x73e793c9057a]
+/home/dhruv/2025.2.1/Vivado/lib/lnx64.o/libxv_simdata_lib.so(RSDExecutive::canSimulationRun() const+0x2a) [0x73e789d7a61a]
+/home/dhruv/2025.2.1/Vivado/lib/lnx64.o/libxv_simdata.so(Java_ui_views_simulator_executive_simulationi_SimulationExecutive_1canSimulationRestart+0x1c) [0x73e78abe7a4c]
+[0x73e741b8406a]

@@ -1,0 +1,907 @@
+#-----------------------------------------------------------
+# Vivado v2025.2.1 (64-bit)
+# SW Build 6403652 on Thu Mar 19 13:47:00 MDT 2026
+# IP Build 6403511 on Thu Mar 19 12:41:45 MDT 2026
+# SharedData Build 6403650 on Thu Mar 19 14:02:13 MDT 2026
+# Start of session at: Sun May 17 15:27:30 2026
+# Process ID         : 467477
+# Current directory  : /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500
+# Command line       : vivado -mode batch -source ./vivado/leon3mp_vivado.tcl ./vivado/leon3mp_vivado_run.tcl
+# Log file           : /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado.log
+# Journal file       : /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado.jou
+# Running On         : dhruv-Dell-G15-5530
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13450HX
+# CPU Frequency      : 800.372 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 15895 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20190 MB
+# Available Virtual  : 7365 MB
+#-----------------------------------------------------------
+source ./vivado/leon3mp_vivado.tcl
+# create_project  ./vivado/ -part xc7a35tcpg236-1 -force
+# set_property top testbench [get_filesets sim_1]
+# set_property top_lib work [get_filesets sim_1]
+# set_property target_language verilog [current_project]
+# set_property strategy {Vivado Synthesis Defaults} [get_runs synth_1]
+# set_property strategy {Vivado Implementation Defaults} [get_runs impl_1]
+# read_vhdl -library grlib ../../lib/grlib/stdlib/version.vhd
+# read_vhdl -library grlib ../../lib/grlib/stdlib/config_types.vhd
+# read_vhdl -library grlib ../../lib/grlib/stdlib/config.vhd
+# read_vhdl -library grlib ../../lib/grlib/stdlib/stdlib.vhd
+# read_vhdl -library grlib ../../lib/grlib/stdlib/stdio.vhd
+# set_property used_in_synthesis false [get_files ../../lib/grlib/stdlib/stdio.vhd]
+# read_vhdl -library grlib ../../lib/grlib/stdlib/testlib.vhd
+# set_property used_in_synthesis false [get_files ../../lib/grlib/stdlib/testlib.vhd]
+# read_vhdl -library grlib ../../lib/grlib/util/util.vhd
+# set_property used_in_synthesis false [get_files ../../lib/grlib/util/util.vhd]
+# read_vhdl -library grlib ../../lib/grlib/sparc/sparc.vhd
+# read_vhdl -library grlib ../../lib/grlib/sparc/sparc_disas.vhd
+# set_property used_in_synthesis false [get_files ../../lib/grlib/sparc/sparc_disas.vhd]
+# read_vhdl -library grlib ../../lib/grlib/sparc/cpu_disas.vhd
+# set_property used_in_synthesis false [get_files ../../lib/grlib/sparc/cpu_disas.vhd]
+# read_vhdl -library grlib ../../lib/grlib/modgen/multlib.vhd
+# read_vhdl -library grlib ../../lib/grlib/modgen/leaves.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/amba.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/devices.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/defmst.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/apbctrl.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/apbctrlx.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/apbctrlsp.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/apbctrldp.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/apbctrl3p.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/apbctrl4p.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/ahbctrl.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/dma2ahb_pkg.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/dma2ahb.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/ahbmst.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/ahblitm2ahbm.vhd
+# read_vhdl -library grlib ../../lib/grlib/amba/dma2ahb_tp.vhd
+# set_property used_in_synthesis false [get_files ../../lib/grlib/amba/dma2ahb_tp.vhd]
+# read_vhdl -library grlib ../../lib/grlib/amba/amba_tp.vhd
+# set_property used_in_synthesis false [get_files ../../lib/grlib/amba/amba_tp.vhd]
+# read_vhdl -library grlib ../../lib/grlib/dftlib/dftlib.vhd
+# read_vhdl -library grlib ../../lib/grlib/dftlib/trstmux.vhd
+# read_vhdl -library grlib ../../lib/grlib/dftlib/synciotest.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/generic_bm_pkg.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/ahb_be.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/axi4_be.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/bmahbmst.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/bm_fre.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/bm_me_rc.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/bm_me_wc.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/fifo_control_rc.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/fifo_control_wc.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/generic_bm_ahb.vhd
+# read_vhdl -library grlib ../../lib/grlib/generic_bm/generic_bm_axi.vhd
+# read_vhdl -library techmap ../../lib/techmap/gencomp/gencomp.vhd
+# read_vhdl -library techmap ../../lib/techmap/gencomp/netcomp.vhd
+# read_vhdl -library techmap ../../lib/techmap/alltech/allclkgen.vhd
+# read_vhdl -library techmap ../../lib/techmap/alltech/allddr.vhd
+# read_vhdl -library techmap ../../lib/techmap/alltech/allmem.vhd
+# read_vhdl -library techmap ../../lib/techmap/alltech/allmul.vhd
+# read_vhdl -library techmap ../../lib/techmap/alltech/allpads.vhd
+# read_vhdl -library techmap ../../lib/techmap/alltech/alltap.vhd
+# read_vhdl -library techmap ../../lib/techmap/inferred/memory_inferred.vhd
+# read_vhdl -library techmap ../../lib/techmap/inferred/ddr_inferred.vhd
+# read_vhdl -library techmap ../../lib/techmap/inferred/mul_inferred.vhd
+# read_vhdl -library techmap ../../lib/techmap/inferred/ddr_phy_inferred.vhd
+# read_vhdl -library techmap ../../lib/techmap/inferred/ddrphy_datapath.vhd
+# read_vhdl -library techmap ../../lib/techmap/inferred/fifo_inferred.vhd
+# read_vhdl -library techmap ../../lib/techmap/inferred/sim_pll.vhd
+# set_property used_in_synthesis false [get_files ../../lib/techmap/inferred/sim_pll.vhd]
+# read_vhdl -library techmap ../../lib/techmap/inferred/lpddr2_phy_inferred.vhd
+# set_property used_in_synthesis false [get_files ../../lib/techmap/inferred/lpddr2_phy_inferred.vhd]
+# read_vhdl -library techmap ../../lib/techmap/unisim/memory_kintex7.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/memory_ultrascale.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/memory_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/buffer_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/pads_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/clkgen_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/tap_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/ddr_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/ddr_phy_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/sysmon_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/mul_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/spictrl_unisim.vhd
+# read_vhdl -library techmap ../../lib/techmap/unisim/memory_versal.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/techbuf.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/clkgen.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/clkmux.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/clkinv.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/clkand.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/grgates.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/ddr_ireg.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/ddr_oreg.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/clkpad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/clkpad_ds.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/inpad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/inpad_ds.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/iodpad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/iopad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/iopad_ds.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/lvds_combo.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/odpad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/outpad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/outpad_ds.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/toutpad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/toutpad_ds.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/skew_outpad.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/ddrphy.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram64.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram_2p.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram_dp.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncfifo_2p.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/regfile_3p.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/tap.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/nandtree.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/grlfpw_net.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/grfpw_net.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/leon3_net.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/leon4_net.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/mul_61x61.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/cpu_disas_net.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/ringosc.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/grpci2_phy_net.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/system_monitor.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/inpad_ddr.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/outpad_ddr.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/iopad_ddr.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram128bw.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram256bw.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram128.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram156bw.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/techmult.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/spictrl_net.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/scanreg.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncrambw.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncram_2pbw.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/sdram_phy.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncreg.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/serdes.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/iopad_tm.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/toutpad_tm.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/memrwcol.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/cdcbus.vhd
+# read_vhdl -library techmap ../../lib/techmap/maps/syncramlb.vhd
+# read_vhdl -library spw ../../lib/spw/comp/spwcomp.vhd
+# read_vhdl -library spw ../../lib/spw/wrapper/grspw_gen.vhd
+# read_vhdl -library spw ../../lib/spw/wrapper/grspw2_gen.vhd
+# read_vhdl -library spw ../../lib/spw/wrapper/grspw_codec_gen.vhd
+# read_vhdl -library eth ../../lib/eth/comp/ethcomp.vhd
+# read_vhdl -library eth ../../lib/eth/core/greth_pkg.vhd
+# read_vhdl -library eth ../../lib/eth/core/eth_rstgen.vhd
+# read_vhdl -library eth ../../lib/eth/core/eth_edcl_ahb_mst.vhd
+# read_vhdl -library eth ../../lib/eth/core/eth_ahb_mst.vhd
+# read_vhdl -library eth ../../lib/eth/core/greth_tx.vhd
+# read_vhdl -library eth ../../lib/eth/core/greth_rx.vhd
+# read_vhdl -library eth ../../lib/eth/core/grethc.vhd
+# read_vhdl -library eth ../../lib/eth/wrapper/greth_gen.vhd
+# read_vhdl -library opencores ../../lib/opencores/can/cancomp.vhd
+# read_vhdl -library opencores ../../lib/opencores/can/can_top.vhd
+# read_vhdl -library opencores ../../lib/opencores/i2c/i2c_master_bit_ctrl.vhd
+# read_vhdl -library opencores ../../lib/opencores/i2c/i2c_master_byte_ctrl.vhd
+# read_vhdl -library opencores ../../lib/opencores/i2c/i2coc.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/arith/arith.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/arith/mul32.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/arith/div32.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/memctrl/memctrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/memctrl/sdctrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/memctrl/sdctrl64.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/memctrl/sdmctrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/memctrl/srctrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmuconfig.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmuiface.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/libmmu.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmutlbcam.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmulrue.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmulru.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmutlb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmutw.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmu.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3/leon3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3/grfpushwx.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/tbufmem.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/tbufmem_2p.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/dsu3x.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/dsu3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/dsu3_mb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libfpu.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libiu.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libcache.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libleon3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/regfile_3p_l3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_acache.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_icache.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_dcache.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/cachemem.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_cache.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/grfpwx.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/grlfpwx.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/iu3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/proc3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/grfpwxsh.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3x.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3cg.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3s.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3sh.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/l3stat.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon3v3/cmvalidbits.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon4/leon4.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/irqmp/irqmp.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/irqmp/irqamp.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/irqmp/irqmp_bmode.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/l2cache/pkg/l2cache.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/can/can.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/can/can_mod.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/can/can_oc.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/can/can_mc.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/can/canmux.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/can/can_rd.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/axi.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/ahbm2axi.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/ahbm2axi3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/ahbm2axi4.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/axinullslv.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/ahb2axib.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/ahb2axi3b.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/ahb2axi4b.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/ahb2axi_l.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/axis_buffer.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/axis_gearbox.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/axi4_resize.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/axi/axi2ahb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/misc.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/rstgen.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/gptimer.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbram.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbdpram.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbtrace_mmb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbtrace_mb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbtrace.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/grgpio.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbstat.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/logan.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/apbps2.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/charrom_package.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/charrom.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/apbvga.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/svgactrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/grsysmon.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/gracectrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/grgpreg.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahb_mst_iface.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/grgprbank.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/grversion.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/apb3cdc.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbsmux.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/ahbmmux.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/misc/grtachom.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/net/net.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/uart/uart.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/uart/libdcom.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/uart/apbuart.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/uart/apbuart_16550.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/uart/dcom.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/uart/dcom_uart.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/uart/ahbuart.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/sim/sim.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/sim.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/sram.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/sram.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/sram16.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/sram16.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/phy.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/phy.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/ser_phy.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/ser_phy.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/ahbrep.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/ahbrep.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/delay_wire.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/delay_wire.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/pwm_check.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/pwm_check.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/ramback.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/ramback.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/slavecheck_slv.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/slavecheck_slv.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/ddrram.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/ddrram.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/ddr2ram.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/ddr2ram.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/ddr3ram.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/ddr3ram.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/sdrtestmod.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/sdrtestmod.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/ahbram_sim.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/ahbram_sim.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/aximem.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/aximem.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/axirep.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/axirep.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/axixmem.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/axixmem.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/sramtestmod.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/sramtestmod.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/delay_wire2.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/delay_wire2.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/uartprint.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/uartprint.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/dfi_phy_sim.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/dfi_phy_sim.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/dfi_phy_sim_fr.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/dfi_phy_sim_fr.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/sim/htif.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/sim/htif.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/jtag.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/libjtagcom.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/jtagcom.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/bscanregs.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/bscanregsbd.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/jtagcom2.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/ahbjtag.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/ahbjtag_exttap.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/ahbjtag_bsd.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/jtagcomrv.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/ahbjtagrv.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/jtagtst.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/jtag/jtagtst.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/jtag/jtag_rv.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/jtag/jtag_rv.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/greth/ethernet_mac.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/greth.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/greth_mb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/greth_gbit.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/greths.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/greth_gbit_mb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/greths_mb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/grethm.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/grethm_mb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/rgmii.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/rgmii_kc705.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/rgmii_series7.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/rgmii_series6.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/comma_detect.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/elastic_buffer.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/gmii_to_mii.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/greth/adapters/word_aligner.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spacewire/spacewire.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/hssl/hssl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/usb/grusb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2cmst.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2cmst_gen.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2cslv.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahbx.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb_apb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb_gen.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb_apb_gen.vhd
+# read_verilog -library gaisler ../../lib/gaisler/i2c/i2c_slave_model.v
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/i2c/i2c_slave_model.v]
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spi.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spimctrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spictrlx.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spictrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spi2ahbx.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spi2ahb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spi2ahb_apb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/spi/spi_flash.vhd
+# set_property used_in_synthesis false [get_files ../../lib/gaisler/spi/spi_flash.vhd]
+# read_vhdl -library gaisler ../../lib/gaisler/nand/nandpkg.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac/grdmac_pkg.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac/apbmem.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac/grdmac_ahbmst.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac/grdmac_alignram.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac/grdmac.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac/grdmac_1p.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/grdmac2_pkg.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/grdmac2_apb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/mem2buf.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/buf2mem.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/grdmac2_ctrl.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/grdmac2.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/grdmac2_ahb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/grdmac2_acc.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/grdmac2/grdmac2_axi.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/subsys/subsys.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/subsys/leon_dsu_stat_base.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/plic/plic.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/plic/grplic.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/plic/plic_encoder.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/plic/plic_gateway.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/plic/plic_target.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/plic/grplic_ahb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/aplic/aplic.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/aplic/graplic_ahb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/aplic/aplic_encoder.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/leon5/leon5.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/l2c_lite/l2c_lite.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/l2c_lite/l2c_lite_core.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/l2c_lite/l2c_lite_ahb.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/l2c_lite/l2c_lite_axi3.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/l2c_lite/l2c_lite_axi4.vhd
+# read_vhdl -library gaisler ../../lib/gaisler/nandfctrl2/nandfctrl2_pkg.vhd
+# read_vhdl -library esa ../../lib/esa/memoryctrl/memoryctrl.vhd
+# read_vhdl -library esa ../../lib/esa/memoryctrl/mctrl.vhd
+# read_vhdl -library micron ../../lib/micron/sdram/components.vhd
+# set_property used_in_synthesis false [get_files ../../lib/micron/sdram/components.vhd]
+# read_vhdl -library micron ../../lib/micron/sdram/mt48lc16m16a2.vhd
+# set_property used_in_synthesis false [get_files ../../lib/micron/sdram/mt48lc16m16a2.vhd]
+# read_verilog -library micron ../../lib/micron/sdram/mobile_sdr.v
+# set_property used_in_synthesis false [get_files ../../lib/micron/sdram/mobile_sdr.v]
+# read_vhdl -library work ../../lib/work/debug/debug.vhd
+# set_property used_in_synthesis false [get_files ../../lib/work/debug/debug.vhd]
+# read_vhdl -library work ../../lib/work/debug/grtestmod.vhd
+# set_property used_in_synthesis false [get_files ../../lib/work/debug/grtestmod.vhd]
+# read_vhdl -library work ../../lib/work/debug/cpu_disas.vhd
+# set_property used_in_synthesis false [get_files ../../lib/work/debug/cpu_disas.vhd]
+# read_vhdl -library work config.vhd
+# read_vhdl -library work ahbrom.vhd
+# read_vhdl -library work vga_clkgen.vhd
+# read_vhdl -library work leon3mp.vhd
+# read_vhdl -library work testbench.vhd
+# set_property used_in_synthesis false [get_files testbench.vhd]
+# add_files -quiet -fileset sim_1 prom.srec ram.srec
+# set_property target_simulator XSim [current_project]
+# set_property top_lib work [current_fileset]
+# set_property top_arch rtl [current_fileset]
+# set_property top leon3mp [current_fileset]
+# launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Project 1-5737] Running on host dhruv-Dell-G15-5530 (64) - Ubuntu 26.04 LTS
+INFO: [Vivado 12-28535] Process started - Sun May 17 15:27:35 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/dhruv/2025.2.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim/prom.srec'
+INFO: [SIM-utils-43] Exported '/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim/ram.srec'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj testbench_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/stdlib/config_types.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/stdlib/config.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/stdlib/version.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/stdlib/stdlib.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/amba/amba.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/amba/devices.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/gencomp/gencomp.vhd" into library techmap
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/misc.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/stdlib/stdio.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/stdlib/testlib.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/amba/ahbctrl.vhd" into library grlib
+INFO: [VRFC 10-3107] analyzing entity 'ahbctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/dftlib/dftlib.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/jtag/libjtagcom.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/jtag/jtag.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/jtag/ahbjtag.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'ahbjtag'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/amba/ahbmst.vhd" into library grlib
+INFO: [VRFC 10-3107] analyzing entity 'ahbmst'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/ahbram.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'ahbram'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/sim/sim.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/ahbrom.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'ahbrom'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/ahbstat.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'ahbstat'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/uart/uart.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/uart/libdcom.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/uart/ahbuart.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'ahbuart'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/alltech/allclkgen.vhd" into library techmap
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/alltech/allmem.vhd" into library techmap
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/alltech/allmul.vhd" into library techmap
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/alltech/allpads.vhd" into library techmap
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/alltech/alltap.vhd" into library techmap
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/amba/apbctrl.vhd" into library grlib
+INFO: [VRFC 10-3107] analyzing entity 'apbctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/amba/apbctrlx.vhd" into library grlib
+INFO: [VRFC 10-3107] analyzing entity 'apbctrlx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/apbps2.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'apbps2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/uart/apbuart.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'apbuart'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/charrom_package.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/apbvga.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'apbvga'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/arith/arith.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/buffer_unisim.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'clkbuf_xilinx'
+INFO: [VRFC 10-3107] analyzing entity 'clkmux_xilinx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3/leon3.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/libfpu.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmuconfig.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/libiu.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmuiface.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/libcache.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/cachemem.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'cachemem'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/can/can.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/can/can_mc.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'can_mc'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/opencores/can/cancomp.vhd" into library opencores
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/can/can_mod.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'can_mod'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/opencores/can/can_top.vhd" into library opencores
+INFO: [VRFC 10-3107] analyzing entity 'can_acf'
+INFO: [VRFC 10-3107] analyzing entity 'can_btl'
+INFO: [VRFC 10-3107] analyzing entity 'can_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'can_crc'
+INFO: [VRFC 10-3107] analyzing entity 'can_ibo'
+INFO: [VRFC 10-3107] analyzing entity 'can_bsp'
+INFO: [VRFC 10-3107] analyzing entity 'can_register'
+INFO: [VRFC 10-3107] analyzing entity 'can_register_asyn'
+INFO: [VRFC 10-3107] analyzing entity 'can_register_asyn_syn'
+INFO: [VRFC 10-3107] analyzing entity 'can_register_syn'
+INFO: [VRFC 10-3107] analyzing entity 'can_registers'
+INFO: [VRFC 10-3107] analyzing entity 'can_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/charrom.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'charrom'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/clkand.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'clkand'
+INFO: [VRFC 10-3107] analyzing entity 'clkrand'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/clkgen.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'clkgen'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/clkgen_unisim.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'clkgen_virtex5'
+INFO: [VRFC 10-3107] analyzing entity 'clkgen_virtex7'
+INFO: [VRFC 10-3107] analyzing entity 'clkgen_kintexu'
+INFO: [VRFC 10-3107] analyzing entity 'clkgen_virtexup'
+INFO: [VRFC 10-3107] analyzing entity 'clkgen_versal'
+INFO: [VRFC 10-3107] analyzing entity 'clkand_unisim'
+INFO: [VRFC 10-3107] analyzing entity 'clkmux_unisim'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/clkmux.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'clkmux'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/clkpad.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'clkpad'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/cmvalidbits.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'cmvalidbits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/micron/sdram/components.vhd" into library micron
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/config.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/sparc/sparc.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/sparc/sparc_disas.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/uart/dcom.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'dcom'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/uart/dcom_uart.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'dcom_uart'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/work/debug/debug.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/arith/div32.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'div32'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/dsu3.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'dsu3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/dsu3x.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'dsu3x'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/core/greth_pkg.vhd" into library eth
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/core/eth_ahb_mst.vhd" into library eth
+INFO: [VRFC 10-3107] analyzing entity 'eth_ahb_mst'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/core/eth_edcl_ahb_mst.vhd" into library eth
+INFO: [VRFC 10-3107] analyzing entity 'eth_edcl_ahb_mst'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/core/eth_rstgen.vhd" into library eth
+INFO: [VRFC 10-3107] analyzing entity 'eth_rstgen'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/comp/ethcomp.vhd" into library eth
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/net/net.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/greth/ethernet_mac.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/gptimer.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'gptimer'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/greth/greth.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'greth'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/greth/greth_gbit.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'greth_gbit'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/core/greth_rx.vhd" into library eth
+INFO: [VRFC 10-3107] analyzing entity 'greth_rx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/core/greth_tx.vhd" into library eth
+INFO: [VRFC 10-3107] analyzing entity 'greth_tx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/eth/core/grethc.vhd" into library eth
+INFO: [VRFC 10-3107] analyzing entity 'grethc'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/greth/grethm.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'grethm'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/grfpw_net.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'grfpw_net'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/gencomp/netcomp.vhd" into library techmap
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/libleon3.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/grfpwx.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'grfpwx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/grfpwxsh.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'grfpwxsh'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/grgates.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'grmux2'
+INFO: [VRFC 10-3107] analyzing entity 'grmux2v'
+INFO: [VRFC 10-3107] analyzing entity 'grdff'
+INFO: [VRFC 10-3107] analyzing entity 'gror2'
+INFO: [VRFC 10-3107] analyzing entity 'grand12'
+INFO: [VRFC 10-3107] analyzing entity 'grnand2'
+INFO: [VRFC 10-3107] analyzing entity 'grand2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/grgpio.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'grgpio'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/grlfpw_net.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'grlfpw_net'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/grlfpwx.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'grlfpwx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/work/debug/grtestmod.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'grtestmod'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/usb/grusb.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/inpad.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'inpad'
+INFO: [VRFC 10-3107] analyzing entity 'inpadv'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/inpad_ds.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'inpad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'inpad_dsv'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/iopad.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'iopad'
+INFO: [VRFC 10-3107] analyzing entity 'iopadv'
+INFO: [VRFC 10-3107] analyzing entity 'iopadvv'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/irqmp/irqmp.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'irqmp'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/iu3.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'iu3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/jtag/jtagcom.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'jtagcom'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/jtag/jtagcom2.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'jtagcom2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/modgen/leaves.vhd" into library grlib
+INFO: [VRFC 10-3107] analyzing entity 'FLIPFLOP'
+INFO: [VRFC 10-3107] analyzing entity 'PP_LOW'
+INFO: [VRFC 10-3107] analyzing entity 'PP_MIDDLE'
+INFO: [VRFC 10-3107] analyzing entity 'PP_HIGH'
+INFO: [VRFC 10-3107] analyzing entity 'R_GATE'
+INFO: [VRFC 10-3107] analyzing entity 'DECODER'
+INFO: [VRFC 10-3107] analyzing entity 'FULL_ADDER'
+INFO: [VRFC 10-3107] analyzing entity 'HALF_ADDER'
+INFO: [VRFC 10-3107] analyzing entity 'INVBLOCK'
+INFO: [VRFC 10-3107] analyzing entity 'XXOR1'
+INFO: [VRFC 10-3107] analyzing entity 'BLOCK0'
+INFO: [VRFC 10-3107] analyzing entity 'BLOCK1'
+INFO: [VRFC 10-3107] analyzing entity 'BLOCK2'
+INFO: [VRFC 10-3107] analyzing entity 'BLOCK1A'
+INFO: [VRFC 10-3107] analyzing entity 'BLOCK2A'
+INFO: [VRFC 10-3107] analyzing entity 'PRESTAGE_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_0_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_1_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_2_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_3_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_4_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_5_64'
+INFO: [VRFC 10-3107] analyzing entity 'XORSTAGE_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLCTREE_64'
+INFO: [VRFC 10-3107] analyzing entity 'DBLCADDER_64_64'
+INFO: [VRFC 10-3107] analyzing entity 'XXOR2'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_0_32'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_1_32'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_2_32'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_3_32'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_4_32'
+INFO: [VRFC 10-3107] analyzing entity 'XORSTAGE_32'
+INFO: [VRFC 10-3107] analyzing entity 'PRESTAGE_32'
+INFO: [VRFC 10-3107] analyzing entity 'DBLCTREE_32'
+INFO: [VRFC 10-3107] analyzing entity 'DBLCADDER_32_32'
+INFO: [VRFC 10-3107] analyzing entity 'PRESTAGE_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_0_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_1_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_2_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_3_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_4_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_5_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLC_6_128'
+INFO: [VRFC 10-3107] analyzing entity 'XORSTAGE_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLCTREE_128'
+INFO: [VRFC 10-3107] analyzing entity 'DBLCADDER_128_128'
+INFO: [VRFC 10-3107] analyzing entity 'BOOTHCODER_18_18'
+INFO: [VRFC 10-3107] analyzing entity 'WALLACE_18_18'
+INFO: [VRFC 10-3107] analyzing entity 'MULTIPLIER_18_18'
+INFO: [VRFC 10-3107] analyzing entity 'BOOTHCODER_34_10'
+INFO: [VRFC 10-3107] analyzing entity 'WALLACE_34_10'
+INFO: [VRFC 10-3107] analyzing entity 'MULTIPLIER_34_10'
+INFO: [VRFC 10-3107] analyzing entity 'MUL_33_9'
+INFO: [VRFC 10-3107] analyzing entity 'BOOTHCODER_34_18'
+INFO: [VRFC 10-3107] analyzing entity 'WALLACE_34_18'
+INFO: [VRFC 10-3107] analyzing entity 'MULTIPLIER_34_18'
+INFO: [VRFC 10-3107] analyzing entity 'MUL_33_17'
+INFO: [VRFC 10-3107] analyzing entity 'BOOTHCODER_34_34'
+INFO: [VRFC 10-3107] analyzing entity 'WALLACE_34_34'
+INFO: [VRFC 10-3107] analyzing entity 'MULTIPLIER_34_34'
+INFO: [VRFC 10-3107] analyzing entity 'MUL_33_33'
+INFO: [VRFC 10-3107] analyzing entity 'ADD32'
+INFO: [VRFC 10-3107] analyzing entity 'MUL_17_17'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/leon3_net.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'leon3_net'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/memctrl/memctrl.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/spacewire/spacewire.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/esa/memoryctrl/memoryctrl.vhd" into library esa
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vga_clkgen.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'vga_clkgen'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/leon3mp.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'leon3mp'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/leon3s.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'leon3s'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/leon3x.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'leon3x'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/libmmu.vhd" into library gaisler
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/esa/memoryctrl/mctrl.vhd" into library esa
+INFO: [VRFC 10-3107] analyzing entity 'mctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/inferred/memory_inferred.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'generic_syncram'
+INFO: [VRFC 10-3107] analyzing entity 'generic_syncram_reg'
+INFO: [VRFC 10-3107] analyzing entity 'generic_syncram_2p'
+INFO: [VRFC 10-3107] analyzing entity 'generic_syncram_2p_reg'
+INFO: [VRFC 10-3107] analyzing entity 'generic_regfile_3p'
+INFO: [VRFC 10-3107] analyzing entity 'generic_regfile_4p'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/memory_kintex7.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'kintex7_syncram_dp'
+INFO: [VRFC 10-3107] analyzing entity 'kintex7_syncram_2p'
+INFO: [VRFC 10-3107] analyzing entity 'kintex7_syncram'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/memory_ultrascale.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'ultrascale_syncram'
+INFO: [VRFC 10-3107] analyzing entity 'ultrascale_syncram_dp'
+INFO: [VRFC 10-3107] analyzing entity 'ultrascale_syncram_2p'
+INFO: [VRFC 10-3107] analyzing entity 'ultrascale_syncram64'
+INFO: [VRFC 10-3107] analyzing entity 'ultrascale_syncram128'
+INFO: [VRFC 10-3107] analyzing entity 'ultrascale_syncram128bw'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/memory_unisim.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'unisim_syncram'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_syncram_dp'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_syncram_2p'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_syncram64'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_syncram128'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_syncram128bw'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_syncram_be'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/memory_versal.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'versal_syncram'
+INFO: [VRFC 10-3107] analyzing entity 'versal_syncram_dp'
+INFO: [VRFC 10-3107] analyzing entity 'versal_syncram_2p'
+INFO: [VRFC 10-3107] analyzing entity 'versal_syncram64'
+INFO: [VRFC 10-3107] analyzing entity 'versal_syncram128'
+INFO: [VRFC 10-3107] analyzing entity 'versal_syncram128bw'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/memrwcol.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'memrwcol'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmu.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmu'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/mmu_acache.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmu_acache'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/mmu_cache.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmu_cache'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/mmu_dcache.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmu_dcache'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/mmu_icache.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmu_icache'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmulru.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmulru'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmulrue.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmulrue'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmutlb.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmutlb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmutlbcam.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmutlbcam'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/srmmu/mmutw.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mmutw'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/micron/sdram/mt48lc16m16a2.vhd" into library micron
+INFO: [VRFC 10-3107] analyzing entity 'mt48lc16m16a2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/modgen/multlib.vhd" into library grlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/arith/mul32.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'mul32'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/inferred/mul_inferred.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'gen_mul_61x61'
+INFO: [VRFC 10-3107] analyzing entity 'gen_mult_pipe'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/odpad.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'odpad'
+INFO: [VRFC 10-3107] analyzing entity 'odpadv'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/outpad.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'outpad'
+INFO: [VRFC 10-3107] analyzing entity 'outpadv'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/outpad_ds.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'outpad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'outpad_dsv'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/pads_unisim.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'unisim_inpad'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_iopad'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_outpad'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_toutpad'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_skew_outpad'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_clkpad'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_inpad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_clkpad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'virtex4_inpad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'versal_inpad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'virtex4_clkpad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_iopad_ds'
+INFO: [VRFC 10-3107] analyzing entity 'unisim_outpad_ds'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/sim/phy.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'phy'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/proc3.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'proc3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/regfile_3p.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'regfile_3p'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/regfile_3p_l3.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'regfile_3p_l3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/rstgen.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'rstgen'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/memctrl/sdmctrl.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'sdmctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/sim/sram.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'sram'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/misc/svgactrl.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'svgactrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/syncram.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'syncram'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/syncram64.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'syncram64'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/syncram_2p.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'syncram_2p'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/syncram_dp.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'syncram_dp'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/syncrambw.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'syncrambw'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/syncreg.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'syncreg'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/tap.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'tap'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/unisim/tap_unisim.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'virtex_tap'
+INFO: [VRFC 10-3107] analyzing entity 'virtex2_tap'
+INFO: [VRFC 10-3107] analyzing entity 'spartan3_tap'
+INFO: [VRFC 10-3107] analyzing entity 'virtex4_tap'
+INFO: [VRFC 10-3107] analyzing entity 'virtex5_tap'
+INFO: [VRFC 10-3107] analyzing entity 'virtex6_tap'
+INFO: [VRFC 10-3107] analyzing entity 'spartan6_tap'
+INFO: [VRFC 10-3107] analyzing entity 'bscane2_tap'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/tbufmem.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'tbufmem'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/leon3v3/tbufmem_2p.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'tbufmem_2p'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/techbuf.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'techbuf'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/techmult.vhd" into library techmap
+INFO: [VRFC 10-3107] analyzing entity 'techmult'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/dftlib/trstmux.vhd" into library grlib
+INFO: [VRFC 10-3107] analyzing entity 'trstmux'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/sim/uartprint.vhd" into library gaisler
+INFO: [VRFC 10-3107] analyzing entity 'uartprint'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/grlib/util/util.vhd" into library grlib
+INFO: [VRFC 10-3107] analyzing entity 'report_version'
+INFO: [VRFC 10-3107] analyzing entity 'report_design'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/testbench.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'testbench'
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L grlib -L techmap -L gaisler -L work -L opencores -L micron -L eth -L esa -L secureip --snapshot testbench_behav work.testbench -log elaborate.log
+Vivado Simulator v2025.2.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/dhruv/2025.2.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L grlib -L techmap -L gaisler -L work -L opencores -L micron -L eth -L esa -L secureip --snapshot testbench_behav work.testbench -log elaborate.log 
+Using 8 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'tap_gen' remains a black box since it has no binding entity [/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/techmap/maps/tap.vhd:268]
+WARNING: [VRFC 10-4940] 'clkmul_virtex2' remains a black box since it has no binding entity [/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vga_clkgen.vhd:51]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+ERROR: [XSIM 43-3388] /usr/bin/gcc not found, please install GCC for your Linux distribution.
+ERROR: [XSIM 43-3915] Encountered a fatal error. Cannot continue. Exiting... 
+execute_script: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1945.383 ; gain = 0.000 ; free physical = 515 ; free virtual = 6548
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1945.383 ; gain = 288.141 ; free physical = 515 ; free virtual = 6548
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+    while executing
+"launch_simulation"
+    (file "./vivado/leon3mp_vivado.tcl" line 435)
+INFO: [Common 17-206] Exiting Vivado at Sun May 17 15:27:49 2026...

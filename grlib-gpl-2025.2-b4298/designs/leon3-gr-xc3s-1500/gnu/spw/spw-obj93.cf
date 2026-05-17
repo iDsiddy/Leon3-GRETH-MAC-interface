@@ -1,0 +1,12 @@
+v 4
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/spw/wrapper/grspw_codec_gen.vhd" "15bff7a81d89d4dcb12a4fdf2c69bddce32946c1" "20260517063909.347":
+  entity grspw_codec_gen at 26( 1308) + 0 on 4;
+  architecture rtl of grspw_codec_gen at 111( 4185) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/spw/wrapper/grspw_gen.vhd" "daa9259066850c79e27d53d986fa3fc6c26b13aa" "20260517063909.338":
+  entity grspw_gen at 26( 1268) + 0 on 4;
+  architecture rtl of grspw_gen at 111( 4316) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/spw/comp/spwcomp.vhd" "7be5bbcb972c439dd581277fb9e88107aa3b6fe3" "20260517063909.335":
+  package spwcomp at 21( 1065) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/spw/wrapper/grspw2_gen.vhd" "cd813e4ccf72b19012ecb8d1278527102be33e8d" "20260517063909.343":
+  entity grspw2_gen at 26( 1271) + 0 on 4;
+  architecture rtl of grspw2_gen at 157( 6410) + 0 on 4;

@@ -1,0 +1,476 @@
+v 4
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncramlb.vhd" "b14d42ebedb60058a1227c6f4ba42f986cd928db" "20260517063909.327":
+  entity syncramlb at 27( 1287) + 0 on 4;
+  architecture rtl of syncramlb at 54( 2146) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/memrwcol.vhd" "dc0921d6e0ff1eec1a2d661bbff650322045b1fd" "20260517063909.318":
+  entity memrwcol at 27( 1318) + 0 on 4;
+  architecture rtl of memrwcol at 66( 2455) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/iopad_tm.vhd" "4860bdfde34cd94ffed3091f79c27053c3a531a2" "20260517063909.309":
+  entity iopad_tm at 30( 1474) + 0 on 4;
+  architecture rtl of iopad_tm at 45( 2009) + 0 on 4;
+  entity iopad_tmvv at 72( 2671) + 0 on 4;
+  architecture rtl of iopad_tmvv at 91( 3405) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncreg.vhd" "f413fa00b07859bec63881b0dfa28507d1949f56" "20260517063909.299":
+  entity syncreg at 27( 1287) + 0 on 4;
+  architecture tmap of syncreg at 44( 1586) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram_2pbw.vhd" "8afcfe8d454baad5c38a9a5e15e15530b1e10ecf" "20260517063909.288":
+  entity syncram_2pbw at 28( 1337) + 0 on 4;
+  architecture rtl of syncram_2pbw at 56( 2298) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/scanreg.vhd" "578860ef13befa035f588cf577ddcddb7288ccc9" "20260517063909.278":
+  entity scanregi at 27( 1315) + 0 on 4;
+  architecture tmap of scanregi at 53( 1857) + 0 on 4;
+  entity scanrego at 82( 2880) + 0 on 4;
+  architecture tmap of scanrego at 107( 3394) + 0 on 4;
+  entity scanregto at 129( 4079) + 0 on 4;
+  architecture tmap of scanregto at 163( 4886) + 0 on 4;
+  entity scanregio at 194( 5921) + 0 on 4;
+  architecture tmap of scanregio at 232( 6857) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/techmult.vhd" "03869c68b0b06283d0e251c2bcdbafc1994e8fb6" "20260517063909.269":
+  entity techmult at 27( 1276) + 0 on 4;
+  architecture rtl of techmult at 53( 2232) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram128.vhd" "6118871855bb8b04afd4906a40aaf1c94e8df117" "20260517063909.259":
+  entity syncram128 at 28( 1330) + 0 on 4;
+  architecture rtl of syncram128 at 53( 2155) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram128bw.vhd" "478ced21072c68d85e7693589226357656652267" "20260517063909.249":
+  entity syncram128bw at 28( 1333) + 0 on 4;
+  architecture rtl of syncram128bw at 51( 2069) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/outpad_ddr.vhd" "44c2a72120b8e53c068b24df12674ae23decb600" "20260517063909.240":
+  entity outpad_ddr at 30( 1546) + 0 on 4;
+  architecture rtl of outpad_ddr at 55( 2065) + 0 on 4;
+  entity outpad_ddrv at 87( 3021) + 0 on 4;
+  architecture rtl of outpad_ddrv at 110( 3566) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/system_monitor.vhd" "24e65e03fb10b810e79017a27a7e85c0769600a5" "20260517063909.230":
+  entity system_monitor at 27( 1297) + 0 on 4;
+  architecture struct of system_monitor at 90( 3410) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/ringosc.vhd" "42515973746991a04a83a4c951b071d225025e1a" "20260517063909.219":
+  entity ringosc at 26( 1302) + 0 on 4;
+  architecture rtl of ringosc at 38( 1530) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/mul_61x61.vhd" "97dd4b0f9d7dbfdc84cf848eae2b3513ae9f1fab" "20260517063909.210":
+  entity mul_61x61 at 27( 1267) + 0 on 4;
+  architecture rtl of mul_61x61 at 43( 1679) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/leon3_net.vhd" "4b0359c0bc81f521fc930110a2bc7a9ffe1504c3" "20260517063909.199":
+  entity leon3_net at 21( 1066) + 0 on 4;
+  architecture rtl of leon3_net at 165( 7730) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/grlfpw_net.vhd" "469700b5fb66acd795336dd7573e2c0ce16d01ae" "20260517063909.189":
+  entity grlfpw_net at 28( 1273) + 0 on 4;
+  architecture rtl of grlfpw_net at 115( 4848) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/tap.vhd" "9378eb002573f4512896b1c6194047fb5815ebd3" "20260517063909.178":
+  entity tap at 28( 1292) + 0 on 4;
+  architecture rtl of tap at 81( 2834) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncfifo_2p.vhd" "394493bf0ecda501a4a4f0c154cded95cbbfc838" "20260517063909.169":
+  entity syncfifo_2p at 42( 2377) + 0 on 4;
+  architecture rtl of syncfifo_2p at 94( 5030) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram_2p.vhd" "ccf14ad69c40b2d3d905874ea58aefc7d38c9467" "20260517063909.161":
+  entity syncram_2p at 27( 1293) + 0 on 4;
+  architecture rtl of syncram_2p at 58( 2291) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram.vhd" "103f1eb031c1297e63fbc8237f04eed8037422e9" "20260517063909.150":
+  entity syncram at 27( 1287) + 0 on 4;
+  architecture rtl of syncram at 52( 2066) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/skew_outpad.vhd" "6dff7cbbaf88a95ccb6ed15017267aa703cb1963" "20260517063909.138":
+  entity skew_outpad at 27( 1294) + 0 on 4;
+  architecture rtl of skew_outpad at 40( 1687) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/toutpad.vhd" "8f030217242c229bd60468adabc57925b9969641" "20260517063909.128":
+  entity toutpad at 27( 1290) + 0 on 4;
+  architecture rtl of toutpad at 41( 1712) + 0 on 4;
+  entity toutpadv at 162( 6000) + 0 on 4;
+  architecture rtl of toutpadv at 178( 6496) + 0 on 4;
+  entity toutpadvv at 186( 6709) + 0 on 4;
+  architecture rtl of toutpadvv at 201( 7225) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/outpad.vhd" "13152c0a1adc23a809f44925e1e4c1aead24fd27" "20260517063909.119":
+  entity outpad at 27( 1278) + 0 on 4;
+  architecture rtl of outpad at 40( 1669) + 0 on 4;
+  entity outpadv at 136( 5588) + 0 on 4;
+  architecture rtl of outpadv at 149( 6027) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/lvds_combo.vhd" "f7bdc32b10c24345de177cf42835a5025a089121" "20260517063909.110":
+  entity lvds_combo at 27( 1319) + 0 on 4;
+  architecture rtl of lvds_combo at 47( 2098) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/iopad.vhd" "701903762ca847a9cda82f4f38bf4786aa363696" "20260517063909.101":
+  entity iopad at 27( 1272) + 0 on 4;
+  architecture rtl of iopad at 41( 1737) + 0 on 4;
+  entity iopadv at 171( 6332) + 0 on 4;
+  architecture rtl of iopadv at 187( 6896) + 0 on 4;
+  entity iopadvv at 195( 7119) + 0 on 4;
+  architecture rtl of iopadvv at 211( 7710) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/inpad_ds.vhd" "710e7f06be6b7e33332fea1f724bda568750642f" "20260517063909.091":
+  entity inpad_ds at 27( 1281) + 0 on 4;
+  architecture rtl of inpad_ds at 38( 1580) + 0 on 4;
+  entity inpad_dsv at 89( 3574) + 0 on 4;
+  architecture rtl of inpad_dsv at 102( 3979) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/clkpad_ds.vhd" "80586e9da4e3753214ed03896fce6439e726df86" "20260517063909.082":
+  entity clkpad_ds at 27( 1283) + 0 on 4;
+  architecture rtl of clkpad_ds at 39( 1587) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/ddr_oreg.vhd" "bcccacf8831241d7a0eec3513c2c8fd5f1bc5295" "20260517063909.072":
+  entity ddr_oreg at 26( 1297) + 0 on 4;
+  architecture rtl of ddr_oreg at 46( 1776) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/grgates.vhd" "d0631aeadc957db648b008cba86052be1236b6d5" "20260517063909.063":
+  entity grmux2 at 26( 1276) + 0 on 4;
+  architecture rtl of grmux2 at 35( 1528) + 0 on 4;
+  entity grmux2v at 89( 2870) + 0 on 4;
+  architecture rtl of grmux2v at 100( 3200) + 0 on 4;
+  entity grdff at 109( 3381) + 0 on 4;
+  architecture rtl of grdff at 117( 3601) + 0 on 4;
+  entity gror2 at 153( 4428) + 0 on 4;
+  architecture rtl of gror2 at 161( 4648) + 0 on 4;
+  entity grand12 at 196( 5408) + 0 on 4;
+  architecture rtl of grand12 at 204( 5630) + 0 on 4;
+  entity grnand2 at 239( 6411) + 0 on 4;
+  architecture rtl of grnand2 at 256( 6673) + 0 on 4;
+  entity grand2 at 271( 6909) + 0 on 4;
+  architecture rtl of grand2 at 288( 7170) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/clkinv.vhd" "d33ce64a0e96b32a1742b083349d88457ca439f4" "20260517063909.053":
+  entity clkinv at 27( 1295) + 0 on 4;
+  architecture rtl of clkinv at 40( 1511) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/clkgen.vhd" "639dcbe152384182462466865e1c1a9bd9a328d8" "20260517063909.044":
+  entity clkgen at 27( 1277) + 0 on 4;
+  architecture struct of clkgen at 67( 2760) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/virtex/clkgen_virtex.vhd" "407a605fe3dbc604e8a8a987ac1d291cf8506045" "20260517063909.035":
+  entity clkgen_virtex at 29( 1350) + 0 on 4;
+  architecture rtl of clkgen_virtex at 64( 2210) + 0 on 4;
+  entity clkgen_virtex2 at 141( 4514) + 0 on 4;
+  architecture struct of clkgen_virtex2 at 187( 5884) + 0 on 4;
+  entity clkmul_virtex2 at 364( 12107) + 0 on 4;
+  architecture struct of clkmul_virtex2 at 386( 12548) + 0 on 4;
+  entity clkgen_spartan3 at 463( 14886) + 0 on 4;
+  architecture struct of clkgen_spartan3 at 504( 16041) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/memory_versal.vhd" "88172b1fd9d9030b52556d5c5289e0a533796e0b" "20260517063909.025":
+  entity versal_syncram at 25( 1237) + 0 on 4;
+  architecture behav of versal_syncram at 55( 1831) + 0 on 4;
+  entity versal_syncram_dp at 141( 4124) + 0 on 4;
+  architecture behav of versal_syncram_dp at 178( 5024) + 0 on 4;
+  entity versal_syncram_2p at 982( 51245) + 0 on 4;
+  architecture behav of versal_syncram_2p at 1015( 51962) + 0 on 4;
+  entity versal_syncram64 at 1711( 94306) + 0 on 4;
+  architecture behav of versal_syncram64 at 1740( 94904) + 0 on 4;
+  entity versal_syncram128 at 1796( 96292) + 0 on 4;
+  architecture behav of versal_syncram128 at 1815( 96742) + 0 on 4;
+  entity versal_syncram128bw at 1868( 98152) + 0 on 4;
+  architecture behav of versal_syncram128bw at 1887( 98606) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/mul_unisim.vhd" "ac68f91a117ed0bd2a58affda624e83e1d651e9d" "20260517063909.013":
+  entity virtex4_mul_61x61 at 2( 1) + 0 on 4;
+  architecture beh of virtex4_mul_61x61 at 16( 321) + 0 on 4;
+  entity virtex6_mul_61x61 at 16578( 432178) + 0 on 4;
+  architecture beh of virtex6_mul_61x61 at 16592( 432498) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/ddr_phy_unisim.vhd" "5761b253e132cb50563ac0de2ccaf86c1373e7a3" "20260517063908.992":
+  entity virtex4_ddr_phy at 27( 1285) + 0 on 4;
+  architecture rtl of virtex4_ddr_phy at 92( 3715) + 0 on 4;
+  entity virtex2_ddr_phy at 457( 17272) + 0 on 4;
+  architecture rtl of virtex2_ddr_phy at 521( 19655) + 0 on 4;
+  entity spartan3e_ddr_phy at 867( 31920) + 0 on 4;
+  architecture rtl of spartan3e_ddr_phy at 932( 34348) + 0 on 4;
+  entity virtex5_ddr2_phy_wo_pads at 1285( 46393) + 0 on 4;
+  architecture rtl of virtex5_ddr2_phy_wo_pads at 1369( 50246) + 0 on 4;
+  entity spartan3a_ddr2_phy at 2148( 82803) + 0 on 4;
+  architecture rtl of spartan3a_ddr2_phy at 2209( 85717) + 0 on 4;
+  entity spartan6_ddr2_phy_wo_pads at 2598( 101739) + 0 on 4;
+  architecture rtl of spartan6_ddr2_phy_wo_pads at 2663( 104962) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/tap_unisim.vhd" "3ae9596f73bea6a3f5726bbd6764d50ae996528c" "20260517063908.981":
+  entity virtex_tap at 27( 1317) + 0 on 4;
+  architecture rtl of virtex_tap at 49( 3023) + 0 on 4;
+  entity virtex2_tap at 85( 5807) + 0 on 4;
+  architecture rtl of virtex2_tap at 107( 6319) + 0 on 4;
+  entity spartan3_tap at 145( 7400) + 0 on 4;
+  architecture rtl of spartan3_tap at 167( 7924) + 0 on 4;
+  entity virtex4_tap at 205( 8995) + 0 on 4;
+  architecture rtl of virtex4_tap at 227( 9517) + 0 on 4;
+  entity virtex5_tap at 287( 11074) + 0 on 4;
+  architecture rtl of virtex5_tap at 309( 11596) + 0 on 4;
+  entity virtex6_tap at 371( 13155) + 0 on 4;
+  architecture rtl of virtex6_tap at 393( 13667) + 0 on 4;
+  entity spartan6_tap at 463( 15410) + 0 on 4;
+  architecture rtl of spartan6_tap at 485( 15923) + 0 on 4;
+  entity bscane2_tap at 554( 17632) + 0 on 4;
+  architecture rtl of bscane2_tap at 579( 18203) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/pads_unisim.vhd" "a0976ecad1146508811bf81bb2f056956e619843" "20260517063908.971":
+  entity unisim_inpad at 27( 1281) + 0 on 4;
+  architecture rtl of unisim_inpad at 40( 1586) + 0 on 4;
+  entity unisim_iopad at 89( 3577) + 0 on 4;
+  architecture rtl of unisim_iopad at 103( 3962) + 0 on 4;
+  entity unisim_outpad at 212( 8723) + 0 on 4;
+  architecture rtl of unisim_outpad at 226( 9079) + 0 on 4;
+  entity unisim_toutpad at 346( 13941) + 0 on 4;
+  architecture rtl of unisim_toutpad at 360( 14303) + 0 on 4;
+  entity unisim_skew_outpad at 427( 17025) + 0 on 4;
+  architecture rtl of unisim_skew_outpad at 444( 17489) + 0 on 4;
+  entity unisim_clkpad at 561( 21999) + 0 on 4;
+  architecture rtl of unisim_clkpad at 578( 22484) + 0 on 4;
+  entity unisim_inpad_ds at 816( 31792) + 0 on 4;
+  architecture rtl of unisim_inpad_ds at 831( 32169) + 0 on 4;
+  entity unisim_clkpad_ds at 852( 32834) + 0 on 4;
+  architecture rtl of unisim_clkpad_ds at 868( 33234) + 0 on 4;
+  entity virtex4_inpad_ds at 914( 34992) + 0 on 4;
+  architecture rtl of virtex4_inpad_ds at 928( 35314) + 0 on 4;
+  entity versal_inpad_ds at 955( 36238) + 0 on 4;
+  architecture rtl of versal_inpad_ds at 970( 36560) + 0 on 4;
+  entity virtex4_clkpad_ds at 995( 37317) + 0 on 4;
+  architecture rtl of virtex4_clkpad_ds at 1009( 37662) + 0 on 4;
+  entity unisim_iopad_ds at 1036( 38554) + 0 on 4;
+  architecture rtl of unisim_iopad_ds at 1050( 38972) + 0 on 4;
+  entity unisim_outpad_ds at 1084( 40433) + 0 on 4;
+  architecture rtl of unisim_outpad_ds at 1097( 40777) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/memory_unisim.vhd" "489a5fdb17ada71880f958f5b9ffe3c0a47eeb35" "20260517063908.962":
+  entity unisim_syncram at 29( 1370) + 0 on 4;
+  architecture behav of unisim_syncram at 57( 2056) + 0 on 4;
+  entity unisim_syncram_dp at 262( 8946) + 0 on 4;
+  architecture behav of unisim_syncram_dp at 295( 9884) + 0 on 4;
+  entity unisim_syncram_2p at 591( 20998) + 0 on 4;
+  architecture behav of unisim_syncram_2p at 611( 21604) + 0 on 4;
+  entity unisim_syncram64 at 667( 23478) + 0 on 4;
+  architecture behav of unisim_syncram64 at 686( 23975) + 0 on 4;
+  entity unisim_syncram128 at 748( 26146) + 0 on 4;
+  architecture behav of unisim_syncram128 at 762( 26557) + 0 on 4;
+  entity unisim_syncram128bw at 783( 27345) + 0 on 4;
+  architecture behav of unisim_syncram128bw at 802( 27849) + 0 on 4;
+  entity unisim_syncram_be at 869( 30079) + 0 on 4;
+  architecture behav of unisim_syncram_be at 894( 30763) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/memory_kintex7.vhd" "ad1c4a99ecd2e4f8fe8d9da2bf7f308be4711134" "20260517063908.950":
+  entity kintex7_syncram_dp at 27( 1308) + 0 on 4;
+  architecture behav of kintex7_syncram_dp at 52( 2058) + 0 on 4;
+  entity kintex7_syncram_2p at 83( 2813) + 0 on 4;
+  architecture behav of kintex7_syncram_2p at 105( 3471) + 2 on 4;
+  entity kintex7_syncram at 145( 4471) + 2 on 4;
+  architecture behav of kintex7_syncram at 164( 4976) + 2 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/sim_pll.vhd" "b12fd34bb47ed18c77f0b12391eeada996ce7025" "20260517063908.941":
+  entity sim_pll at 27( 1316) + 0 on 4;
+  architecture sim of sim_pll at 60( 2031) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/ddrphy_datapath.vhd" "72955de5052ed718421d55c238aded3da0b635cf" "20260517063908.933":
+  entity ddrphy_datapath at 27( 1331) + 0 on 4;
+  architecture rtl of ddrphy_datapath at 93( 3684) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/mul_inferred.vhd" "de6f21b2bbcab024aeee88b2979ca93ba296d004" "20260517063908.924":
+  entity gen_mul_61x61 at 27( 1281) + 0 on 4;
+  architecture rtl of gen_mul_61x61 at 41( 1653) + 0 on 4;
+  entity gen_mult_pipe at 73( 2349) + 0 on 4;
+  architecture simple of gen_mult_pipe at 94( 3240) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/memory_inferred.vhd" "ed45dde9e949b2fd63cf489128ddedcc7e0d593a" "20260517063908.915":
+  entity generic_syncram at 29( 1308) + 0 on 4;
+  architecture behavioral of generic_syncram at 46( 1832) + 0 on 4;
+  entity generic_syncram_reg at 83( 2659) + 0 on 4;
+  architecture behavioral of generic_syncram_reg at 99( 3111) + 0 on 4;
+  entity generic_syncram_2p at 136( 3971) + 0 on 4;
+  architecture behav of generic_syncram_2p at 161( 4572) + 0 on 4;
+  entity generic_syncram_2p_reg at 218( 5934) + 0 on 4;
+  architecture behav of generic_syncram_2p_reg at 241( 6480) + 0 on 4;
+  entity generic_regfile_3p at 287( 7742) + 0 on 4;
+  architecture rtl of generic_regfile_3p at 314( 8682) + 0 on 4;
+  entity generic_regfile_4p at 388( 10507) + 0 on 4;
+  architecture rtl of generic_regfile_4p at 421( 11708) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/alltech/allpads.vhd" "019d39aed5aa232f12e14457994c85851dd9b679" "20260517063908.907":
+  package allpads at 27( 1266) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/alltech/allmem.vhd" "769d945e14d28a7723966a3fe44fe216d9ed1b91" "20260517063908.898":
+  package allmem at 27( 1269) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/alltech/allclkgen.vhd" "13e40fdd212f43ef75d938a2094a0fea3c39cbf3" "20260517063908.888":
+  package allclkgen at 27( 1284) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/gencomp/gencomp.vhd" "6bfd95d8d05ea6ac75aa61f224c7c11b1117b14d" "20260517063908.878":
+  package gencomp at 27( 1283) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/gencomp/netcomp.vhd" "bef50040b5239322c7e9cb1a20a0d7fbcacc9733" "20260517063908.883":
+  package netcomp at 27( 1296) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/alltech/allddr.vhd" "42377162d1871c099b5a03aaf1b0819de761e343" "20260517063908.893":
+  package allddr at 27( 1299) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/alltech/allmul.vhd" "3c5359fe777c60ab1831d7c66dc85dd0db1d2a24" "20260517063908.902":
+  package allmul at 27( 1265) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/alltech/alltap.vhd" "1eea9780e278701f6ef7165d3ea3becad7ee8124" "20260517063908.911":
+  package alltap at 28( 1325) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/ddr_inferred.vhd" "e17a0ca0d225a7c42fc6971b4f2a5a2937bd1c48" "20260517063908.920":
+  entity gen_iddr_reg at 27( 1306) + 0 on 4;
+  architecture rtl of gen_iddr_reg at 46( 1742) + 0 on 4;
+  entity gen_oddr_reg at 68( 2288) + 0 on 4;
+  architecture rtl of gen_oddr_reg at 86( 2685) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/ddr_phy_inferred.vhd" "1668edb03de18a5c7593d006393bf0ea25c005d6" "20260517063908.929":
+  entity generic_ddr_phy_wo_pads at 32( 1560) + 0 on 4;
+  architecture rtl of generic_ddr_phy_wo_pads at 88( 4120) + 0 on 4;
+  entity generic_ddr2_phy_wo_pads at 271( 9239) + 0 on 4;
+  architecture rtl of generic_ddr2_phy_wo_pads at 330( 12024) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/fifo_inferred.vhd" "4063cce717e1a03b4cb1794c13d314094518fbe3" "20260517063908.937":
+  entity generic_fifo at 43( 2266) + 0 on 4;
+  architecture rtl_fifo of generic_fifo at 97( 4835) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/inferred/lpddr2_phy_inferred.vhd" "ca486bf174e9c9afb55a57c679661adf5afbd5d1" "20260517063908.946":
+  entity clkswitch at 27( 1350) + 0 on 4;
+  architecture sim of clkswitch at 35( 1489) + 0 on 4;
+  entity generic_lpddr2phy_wo_pads at 54( 1868) + 0 on 4;
+  architecture beh of generic_lpddr2phy_wo_pads at 116( 4603) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/memory_ultrascale.vhd" "3882a0c2374beef9b64a56dbb9ea04f73f379e6c" "20260517063908.956":
+  entity ultrascale_syncram at 26( 1269) + 0 on 4;
+  architecture behav of ultrascale_syncram at 50( 1827) + 0 on 4;
+  entity ultrascale_syncram_dp at 114( 3937) + 0 on 4;
+  architecture behav of ultrascale_syncram_dp at 145( 4773) + 0 on 4;
+  entity ultrascale_syncram_2p at 894( 50626) + 0 on 4;
+  architecture behav of ultrascale_syncram_2p at 921( 51312) + 0 on 4;
+  entity ultrascale_syncram64 at 1553( 92605) + 0 on 4;
+  architecture behav of ultrascale_syncram64 at 1578( 93174) + 0 on 4;
+  entity ultrascale_syncram128 at 1605( 94065) + 0 on 4;
+  architecture behav of ultrascale_syncram128 at 1619( 94480) + 0 on 4;
+  entity ultrascale_syncram128bw at 1643( 95397) + 0 on 4;
+  architecture behav of ultrascale_syncram128bw at 1658( 95817) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/buffer_unisim.vhd" "da7400fa2337bfe0144c0d28cc71fb9b88260882" "20260517063908.966":
+  entity clkbuf_xilinx at 26( 1313) + 0 on 4;
+  architecture rtl of clkbuf_xilinx at 43( 1622) + 0 on 4;
+  entity clkmux_xilinx at 64( 2304) + 0 on 4;
+  architecture rtl of clkmux_xilinx at 79( 2573) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/clkgen_unisim.vhd" "ffa03d2fe0348da7a97a7924846182b926418206" "20260517063908.976":
+  entity clkgen_virtex5 at 32( 1551) + 0 on 4;
+  architecture struct of clkgen_virtex5 at 73( 2823) + 0 on 4;
+  entity clkgen_virtex7 at 257( 9340) + 0 on 4;
+  architecture struct of clkgen_virtex7 at 284( 9993) + 0 on 4;
+  entity clkgen_kintexu at 447( 15792) + 0 on 4;
+  architecture struct of clkgen_kintexu at 477( 16725) + 0 on 4;
+  entity clkgen_virtexup at 678( 29555) + 0 on 4;
+  architecture struct of clkgen_virtexup at 708( 30489) + 0 on 4;
+  entity clkgen_versal at 909( 43320) + 0 on 4;
+  architecture struct of clkgen_versal at 949( 44120) + 0 on 4;
+  entity clkand_unisim at 1223( 56411) + 0 on 4;
+  architecture rtl of clkand_unisim at 1238( 56677) + 0 on 4;
+  entity clkmux_unisim at 1253( 56923) + 0 on 4;
+  architecture rtl of clkmux_unisim at 1268( 57192) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/ddr_unisim.vhd" "0ec4eb751ac2eca53104b24b2ddc5f84e9e721ec" "20260517063908.985":
+  entity unisim_iddr_reg at 27( 1316) + 0 on 4;
+  architecture rtl of unisim_iddr_reg at 50( 1821) + 0 on 4;
+  entity unisim_iddre1_reg at 215( 6539) + 0 on 4;
+  architecture rtl of unisim_iddre1_reg at 236( 6955) + 0 on 4;
+  entity unisim_iddre2_reg at 260( 7585) + 0 on 4;
+  architecture rtl of unisim_iddre2_reg at 281( 8002) + 0 on 4;
+  entity unisim_oddr_reg at 304( 8579) + 0 on 4;
+  architecture rtl of unisim_oddr_reg at 328( 9091) + 0 on 4;
+  entity oddrv2 at 515( 13497) + 0 on 4;
+  architecture rtl of oddrv2 at 538( 13960) + 0 on 4;
+  entity oddrc3e at 570( 14623) + 0 on 4;
+  architecture rtl of oddrc3e at 593( 15083) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/sysmon_unisim.vhd" "cc5e9e0c148ee5b071cc56587ce90bfe8d983191" "20260517063908.996":
+  entity sysmon_virtex5 at 27( 1267) + 0 on 4;
+  architecture struct of sysmon_virtex5 at 93( 3514) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/unisim/spictrl_unisim.vhd" "337344af3cebda8e472796bb79ac884d0517b31a" "20260517063909.019":
+  entity spictrl_unisim at 22( 1067) + 0 on 4;
+  architecture rtl of spictrl_unisim at 66( 2490) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/virtex/memory_virtex.vhd" "7f893dfbb6e8fda0b7fcbe4c4cbb002d9fce987a" "20260517063909.030":
+  entity virtex_syncram at 30( 1349) + 0 on 4;
+  architecture behav of virtex_syncram at 59( 2047) + 0 on 4;
+  entity virtex_syncram_dp at 193( 7376) + 0 on 4;
+  architecture behav of virtex_syncram_dp at 223( 8235) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/techbuf.vhd" "482ef2eb8eed9647881da99ee1def91b36e9cfaf" "20260517063909.039":
+  entity techbuf at 26( 1294) + 0 on 4;
+  architecture rtl of techbuf at 39( 1598) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/clkmux.vhd" "30d0c628281e874bc4c414eabdaf9fa331bf7cd5" "20260517063909.048":
+  entity clkmux at 27( 1274) + 0 on 4;
+  architecture rtl of clkmux at 44( 1678) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/clkand.vhd" "2167c010bcd5f6c9b08e45794cd7fab67b882ba2" "20260517063909.059":
+  entity clkand at 27( 1256) + 0 on 4;
+  architecture rtl of clkand at 48( 1819) + 0 on 4;
+  entity clkrand at 199( 5934) + 0 on 4;
+  architecture rtl of clkrand at 214( 6227) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/ddr_ireg.vhd" "c3ec78193345787b3155b2db387019e5adca8492" "20260517063909.068":
+  entity ddr_ireg at 26( 1296) + 0 on 4;
+  architecture rtl of ddr_ireg at 46( 1780) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/clkpad.vhd" "2adb3549a5f0c799ab8f8b4f432009400ae8f635" "20260517063909.077":
+  entity clkpad at 27( 1277) + 0 on 4;
+  architecture rtl of clkpad at 40( 1673) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/inpad.vhd" "aad3606ab2690e612907915020ded438cd26b1f6" "20260517063909.087":
+  entity inpad at 27( 1275) + 0 on 4;
+  architecture rtl of inpad at 40( 1590) + 0 on 4;
+  entity inpadv at 129( 5065) + 0 on 4;
+  architecture rtl of inpadv at 142( 5447) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/iodpad.vhd" "5576578c1522309e148a00f89900d8c52baa59be" "20260517063909.096":
+  entity iodpad at 27( 1286) + 0 on 4;
+  architecture rtl of iodpad at 40( 1651) + 0 on 4;
+  entity iodpadv at 132( 4717) + 0 on 4;
+  architecture rtl of iodpadv at 146( 5159) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/iopad_ds.vhd" "49db6b705447f6426a3928497506fad9769c5d74" "20260517063909.105":
+  entity iopad_ds at 27( 1297) + 0 on 4;
+  architecture rtl of iopad_ds at 40( 1697) + 0 on 4;
+  entity iopad_dsv at 111( 3797) + 0 on 4;
+  architecture rtl of iopad_dsv at 126( 4278) + 0 on 4;
+  entity iopad_dsvv at 134( 4503) + 0 on 4;
+  architecture rtl of iopad_dsvv at 149( 5009) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/odpad.vhd" "8f2f42893327ad055e2f32f59a708149400e1450" "20260517063909.115":
+  entity odpad at 27( 1286) + 0 on 4;
+  architecture rtl of odpad at 41( 1702) + 0 on 4;
+  entity odpadv at 144( 5189) + 0 on 4;
+  architecture rtl of odpadv at 158( 5648) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/outpad_ds.vhd" "c76d5f874182766ccc6b2f432ddb2097834fd3b4" "20260517063909.124":
+  entity outpad_ds at 27( 1297) + 0 on 4;
+  architecture rtl of outpad_ds at 39( 1624) + 0 on 4;
+  entity outpad_dsv at 88( 3250) + 0 on 4;
+  architecture rtl of outpad_dsv at 102( 3677) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/toutpad_ds.vhd" "092aa56a5ee46aba3e2f0ef92750e9fe6f68cd70" "20260517063909.133":
+  entity toutpad_ds at 27( 1311) + 0 on 4;
+  architecture rtl of toutpad_ds at 40( 1669) + 0 on 4;
+  entity toutpad_dsv at 101( 3363) + 0 on 4;
+  architecture rtl of toutpad_dsv at 116( 3841) + 0 on 4;
+  entity toutpad_dsvv at 124( 4064) + 0 on 4;
+  architecture rtl of toutpad_dsvv at 139( 4567) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/ddrphy.vhd" "e85b1d0044f57fc25e9cbf82eddd9a42ec868dfc" "20260517063909.145":
+  entity ddrphy at 27( 1268) + 0 on 4;
+  architecture rtl of ddrphy at 93( 4058) + 0 on 4;
+  entity ddrphy_wo_pads at 270( 9909) + 0 on 4;
+  architecture rtl of ddrphy_wo_pads at 332( 12947) + 0 on 4;
+  entity ddrpads at 380( 14477) + 0 on 4;
+  architecture rtl of ddrpads at 440( 17468) + 0 on 4;
+  entity ddr2pads at 556( 21817) + 0 on 4;
+  architecture rtl of ddr2pads at 621( 25127) + 0 on 4;
+  entity ddr2phy at 749( 30126) + 0 on 4;
+  architecture rtl of ddr2phy at 847( 34935) + 0 on 4;
+  entity ddr2phy_wo_pads at 1069( 44491) + 0 on 4;
+  architecture rtl of ddr2phy_wo_pads at 1156( 48907) + 0 on 4;
+  entity lpddr2phy_wo_pads at 1242( 52133) + 0 on 4;
+  architecture tmap of lpddr2phy_wo_pads at 1306( 54907) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram64.vhd" "d3924795d0d61074634972e6fd9e5aa189232f9b" "20260517063909.155":
+  entity syncram64 at 28( 1327) + 0 on 4;
+  architecture rtl of syncram64 at 53( 2147) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram_dp.vhd" "dc4de8fb021d169c0b720f5d6d6d639a3b298c52" "20260517063909.165":
+  entity syncram_dp at 27( 1296) + 0 on 4;
+  architecture rtl of syncram_dp at 59( 2408) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/regfile_3p.vhd" "dea6999087200871b2bdfcd0f01b0708ce3e99f9" "20260517063909.173":
+  entity regfile_3p at 27( 1297) + 0 on 4;
+  architecture rtl of regfile_3p at 55( 2283) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/nandtree.vhd" "1ee84bdcce6b3e90e7bf9815e1f25c317e7b0c4e" "20260517063909.183":
+  entity nandtree at 26( 1274) + 0 on 4;
+  architecture rtl of nandtree at 42( 1604) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/grfpw_net.vhd" "4a546e31125a827b2b6f7095c8624cd65df8bca0" "20260517063909.194":
+  entity grfpw_net at 28( 1281) + 0 on 4;
+  architecture rtl of grfpw_net at 115( 4913) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/leon4_net.vhd" "2ff623904a1f37cad699ff73e3db654d200f4eb3" "20260517063909.205":
+  entity leon4_net at 21( 1066) + 0 on 4;
+  architecture rtl of leon4_net at 147( 6892) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/cpu_disas_net.vhd" "0c297b9ba9d39d3a8be35439997a7869d0babf5b" "20260517063909.214":
+  entity cpu_disas_net at 27( 1306) + 0 on 4;
+  architecture behav of cpu_disas_net at 53( 1921) + 0 on 4;
+  entity fpu_disas_net at 82( 2861) + 0 on 4;
+  architecture behav of fpu_disas_net at 113( 3681) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/grpci2_phy_net.vhd" "78bad7c60b05a46ed67deea8f362b89666c5b935" "20260517063909.225":
+  entity grpci2_phy_net at 21( 988) + 0 on 4;
+  architecture struct of grpci2_phy_net at 296( 14211) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/inpad_ddr.vhd" "c71fe994da88ccab2436eb9537acc52278fc0ebb" "20260517063909.235":
+  entity inpad_ddr at 29( 1460) + 0 on 4;
+  architecture rtl of inpad_ddr at 54( 1976) + 0 on 4;
+  entity inpad_ddrv at 92( 2971) + 0 on 4;
+  architecture rtl of inpad_ddrv at 117( 3542) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/iopad_ddr.vhd" "21409311be261dcb6cffa65f0c721c76fbc1b9ba" "20260517063909.244":
+  entity iopad_ddr at 29( 1484) + 0 on 4;
+  architecture rtl of iopad_ddr at 55( 2167) + 0 on 4;
+  entity iopad_ddrv at 80( 3101) + 0 on 4;
+  architecture rtl of iopad_ddrv at 104( 3750) + 0 on 4;
+  entity iopad_ddrvv at 112( 4006) + 0 on 4;
+  architecture rtl of iopad_ddrvv at 136( 4680) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram256bw.vhd" "269b478bc4751a40068caa1b762ee9a86603be26" "20260517063909.254":
+  entity syncram256bw at 28( 1333) + 0 on 4;
+  architecture rtl of syncram256bw at 51( 2069) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncram156bw.vhd" "bc2637b8f4c7f2e43d9143d5427f39c3226695cd" "20260517063909.264":
+  entity syncram156bw at 29( 1384) + 0 on 4;
+  architecture rtl of syncram156bw at 53( 2144) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/spictrl_net.vhd" "7fded50220559bc8772525d3ec6f5e49f06c289e" "20260517063909.273":
+  entity spictrl_net at 27( 1306) + 0 on 4;
+  architecture rtl of spictrl_net at 86( 3325) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/syncrambw.vhd" "6f9c6aba67c4e343cf90e6a14c742835230b1842" "20260517063909.283":
+  entity syncrambw at 28( 1321) + 0 on 4;
+  architecture rtl of syncrambw at 53( 2164) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/sdram_phy.vhd" "c2cbe97aaffb42b713d65e2171d5d1572fed1ece" "20260517063909.294":
+  entity sdram_phy at 28( 1379) + 0 on 4;
+  architecture rtl of sdram_phy at 81( 3311) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/serdes.vhd" "07e05148d4e16c57eb0fe86ad61f34c8e21d034f" "20260517063909.304":
+  entity serdes at 26( 1317) + 0 on 4;
+  architecture rtl of serdes at 64( 2453) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/toutpad_tm.vhd" "ea292effaf135095c0073731e4a81b92b88def3b" "20260517063909.313":
+  entity toutpad_tm at 30( 1480) + 0 on 4;
+  architecture rtl of toutpad_tm at 45( 1972) + 0 on 4;
+  entity toutpad_tmvv at 72( 2612) + 0 on 4;
+  architecture rtl of toutpad_tmvv at 90( 3271) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/techmap/maps/cdcbus.vhd" "0193e26ec4183bad96fcd43daf9c2f6db9dda081" "20260517063909.323":
+  entity cdcbus at 41( 2057) + 0 on 4;
+  architecture a of cdcbus at 60( 2443) + 0 on 4;

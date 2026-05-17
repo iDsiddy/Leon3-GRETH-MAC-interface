@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/config.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/leon3mp.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'leon3mp'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/testbench.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

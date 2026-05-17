@@ -1,0 +1,6 @@
+0.7
+2020.2
+Mar 19 2026
+13:48:41
+/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/opencores/can/can_top.vhd,1751630239,vhdl,,,,can_acf;can_bsp;can_btl;can_crc;can_fifo;can_ibo;can_register;can_register_asyn;can_register_asyn_syn;can_register_syn;can_registers;can_top,,,,,,,,
+/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/opencores/can/cancomp.vhd,1751630239,vhdl,/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/lib/gaisler/can/can_mod.vhd,,,cancomp,,,,,,,,

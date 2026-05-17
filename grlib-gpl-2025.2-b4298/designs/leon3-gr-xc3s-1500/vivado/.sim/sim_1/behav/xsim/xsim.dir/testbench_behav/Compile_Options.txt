@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "grlib" -L "techmap" -L "gaisler" -L "work" -L "opencores" -L "micron" -L "eth" -L "esa" -L "secureip" --snapshot "testbench_behav" "work.testbench" -log "elaborate.log" 

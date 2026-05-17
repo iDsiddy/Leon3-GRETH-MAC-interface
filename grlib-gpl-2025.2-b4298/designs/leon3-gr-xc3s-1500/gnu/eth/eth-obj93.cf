@@ -1,0 +1,27 @@
+v 4
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/wrapper/greth_gen.vhd" "a91fdc0042c2520e7061a0c6f06049065b6917ae" "20260517063909.390":
+  entity greth_gen at 26( 1253) + 0 on 4;
+  architecture rtl of greth_gen at 142( 5752) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/core/greth_rx.vhd" "2e0863b3a97d17602521d7e90b6e7c7519a22090" "20260517063909.380":
+  entity greth_rx at 26( 1248) + 0 on 4;
+  architecture rtl of greth_rx at 51( 1898) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/core/eth_ahb_mst.vhd" "1c2159057db55e082949723d855815bd354c5437" "20260517063909.370":
+  entity eth_ahb_mst at 26( 1301) + 0 on 4;
+  architecture rtl of eth_ahb_mst at 47( 1805) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/core/eth_rstgen.vhd" "01d2d0c0e038a70dd8f8570cb4b16aa477373b9d" "20260517063909.362":
+  entity eth_rstgen at 27( 1287) + 0 on 4;
+  architecture rtl of eth_rstgen at 41( 1567) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/comp/ethcomp.vhd" "31534029aea9f558214fff4eb6907f44a2f1a53c" "20260517063909.353":
+  package ethcomp at 21( 1066) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/core/greth_pkg.vhd" "76447b2666288b9da284d7cf79981ce1e2eadedc" "20260517063909.358":
+  package grethpkg at 21( 1066) + 0 on 4;
+  package body grethpkg at 474( 16065) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/core/eth_edcl_ahb_mst.vhd" "dfc1d7bfe6fec7eeab998ceb2ecceb18d72f50cf" "20260517063909.366":
+  entity eth_edcl_ahb_mst at 26( 1317) + 0 on 4;
+  architecture rtl of eth_edcl_ahb_mst at 48( 1876) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/core/greth_tx.vhd" "8ba95f5af6eaac3419f638a162f24b6c3741dfc4" "20260517063909.375":
+  entity greth_tx at 26( 1250) + 0 on 4;
+  architecture rtl of greth_tx at 51( 1898) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/eth/core/grethc.vhd" "e777517b2da43a54d838881d8454961b6efa3d76" "20260517063909.385":
+  entity grethc at 27( 1315) + 0 on 4;
+  architecture rtl of grethc at 166( 6877) + 0 on 4;

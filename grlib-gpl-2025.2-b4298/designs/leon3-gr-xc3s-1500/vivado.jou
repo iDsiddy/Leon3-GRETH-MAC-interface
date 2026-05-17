@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2025.2.1 (64-bit)
+# SW Build 6403652 on Thu Mar 19 13:47:00 MDT 2026
+# IP Build 6403511 on Thu Mar 19 12:41:45 MDT 2026
+# SharedData Build 6403650 on Thu Mar 19 14:02:13 MDT 2026
+# Start of session at: Sun May 17 15:30:08 2026
+# Process ID         : 472422
+# Current directory  : /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500
+# Command line       : vivado /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim/testbench_behav.wdb
+# Log file           : /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado.log
+# Journal file       : /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado.jou
+# Running On         : dhruv-Dell-G15-5530
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13450HX
+# CPU Frequency      : 923.302 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 15895 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20190 MB
+# Available Virtual  : 7854 MB
+#-----------------------------------------------------------
+start_gui
+open_wave_database /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.sim/sim_1/behav/xsim/testbench_behav.wdb
+add_wave {{/testbench}} 
+run 10ms
+launch_simulationS
+launch_simulation
+save_wave_config {/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/testbench_behav.wcfg}
+add_files -fileset sim_1 -norecurse /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/testbench_behav.wcfg
+set_property xsim.view /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/testbench_behav.wcfg [get_filesets sim_1]
+launch_simulation
+save_project_as leon3_sim ~/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/leon3_sim
+launch_simulation
+set_property top testbench [get_filesets sim_1]
+set_property top_lib work [get_filesets sim_1]
+launch_simulation
+close_project
+open_project ~/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/leon3mp.xpr
+open_project /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/leon3_sim/leon3_sim.xpr
+set_property target_simulator XSim [current_project]
+set_property top testbench [get_filesets sim_1]
+set_property top_lib work [get_filesets sim_1]
+launch_simulation
+get_property DIRECTORY [current_project]
+close_project
+open_project ~/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/leon3mp.xpr
+close_project
+close_project
+open_project /home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/vivado/.xpr
+set_property target_simulator XSim [current_project]
+set_property top testbench [get_filesets sim_1]
+set_property top_lib work [get_filesets sim_1]
+launch_simulation
+source testbench.tcl
+update_compile_order -fileset sources_1
+current_sim simulation_1
+run 10ms
+launch_simulation
+current_sim simulation_2
+close_sim
+launch_simulation
+source testbench.tcl
+run 10ms
+run 10 ms
+add_wave /testbench/phy0
+run 100us
+add_wave /testbench/phy0
+run 100us
+close_sim
+close_sim

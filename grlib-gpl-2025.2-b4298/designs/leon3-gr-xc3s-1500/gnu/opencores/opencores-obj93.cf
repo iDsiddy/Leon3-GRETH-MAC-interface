@@ -1,0 +1,36 @@
+v 4
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/opencores/i2c/i2coc.vhd" "24f25a21e1156ead11b6d800074a70c2e8b53bcd" "20260517063909.416":
+  package i2coc at 29( 1894) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/opencores/i2c/i2c_master_bit_ctrl.vhd" "8a191d1cb6d15b032864aa69c9933bf466362deb" "20260517063909.408":
+  entity i2c_master_bit_ctrl at 169( 8745) + 0 on 4;
+  architecture structural of i2c_master_bit_ctrl at 204( 9822) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/opencores/can/cancomp.vhd" "aeb2558fe8f428bc2e7d7a960aee69c9e0cad873" "20260517063909.396":
+  package cancomp at 27( 1276) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/opencores/can/can_top.vhd" "5b99ef64c82a075ff1198ab81866fe0dfafc40bd" "20260517063909.403":
+  entity can_acf at 109( 5139) + 0 on 4;
+  architecture rtl of can_acf at 144( 6657) + 0 on 4;
+  entity can_btl at 452( 26527) + 0 on 4;
+  architecture rtl of can_btl at 491( 28054) + 0 on 4;
+  entity can_fifo at 958( 45751) + 0 on 4;
+  architecture rtl of can_fifo at 1002( 47469) + 0 on 4;
+  entity can_crc at 1408( 62701) + 0 on 4;
+  architecture rtl of can_crc at 1423( 63109) + 0 on 4;
+  entity can_ibo at 1538( 68376) + 0 on 4;
+  architecture rtl of can_ibo at 1547( 68601) + 0 on 4;
+  entity can_bsp at 1815( 79306) + 0 on 4;
+  architecture rtl of can_bsp at 1939( 85572) + 0 on 4;
+  entity can_register at 4304( 176751) + 0 on 4;
+  architecture rtl of can_register at 4317( 177209) + 0 on 4;
+  entity can_register_asyn at 4433( 182469) + 0 on 4;
+  architecture rtl of can_register_asyn at 4452( 183101) + 0 on 4;
+  entity can_register_asyn_syn at 4572( 188511) + 0 on 4;
+  architecture rtl of can_register_asyn_syn at 4590( 189170) + 0 on 4;
+  entity can_register_syn at 4711( 194670) + 0 on 4;
+  architecture rtl of can_register_syn at 4728( 195273) + 0 on 4;
+  entity can_registers at 4945( 203977) + 0 on 4;
+  architecture rtl of can_registers at 5045( 209052) + 0 on 4;
+  entity can_top at 6436( 312705) + 0 on 4;
+  architecture rtl of can_top at 6487( 314779) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/opencores/i2c/i2c_master_byte_ctrl.vhd" "dc09ed26e9c08f18478fb2d770c8294fdb12fbba" "20260517063909.412":
+  entity i2c_master_byte_ctrl at 78( 4037) + 0 on 4;
+  architecture structural of i2c_master_byte_ctrl at 119( 5334) + 0 on 4;

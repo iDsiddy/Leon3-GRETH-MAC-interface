@@ -1,0 +1,615 @@
+v 4
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/nandfctrl2/nandfctrl2_pkg.vhd" "768d898fb95af0e5fa40121679525c278db02da9" "20260517063910.455":
+  package nandfctrl2_pkg at 24( 1200) + 0 on 4;
+  package body nandfctrl2_pkg at 306( 11110) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/l2c_lite/l2c_lite_axi3.vhd" "587917ee15219dab2dfbb95fd952f4461599a4d3" "20260517063910.444":
+  entity l2c_lite_axi3 at 21( 1065) + 0 on 4;
+  architecture rtl of l2c_lite_axi3 at 70( 2117) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/l2c_lite/l2c_lite_core.vhd" "2a69d3dc01a0c2e8dcff1a486673f3d77726094c" "20260517063910.434":
+  entity l2c_lite_core at 21( 1065) + 0 on 4;
+  architecture rtl of l2c_lite_core at 80( 2806) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon5/leon5.vhd" "8290861924976775f7fd162bbea6ea99423171ab" "20260517063910.423":
+  package leon5 at 26( 1247) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/aplic/graplic_ahb.vhd" "9a4c548fdb2f295231345f37e1f2f1a070021fa9" "20260517063910.413":
+  entity graplic_ahb at 30( 1481) + 0 on 4;
+  architecture rtl of graplic_ahb at 87( 5617) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/plic/grplic_ahb.vhd" "f01a51ce3c46e1854b7391da47e03d6082445c7b" "20260517063910.402":
+  entity grplic_ahb at 40( 1971) + 0 on 4;
+  architecture rtl of grplic_ahb at 72( 2928) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/plic/plic_gateway.vhd" "e763f37c59a3087b79769670a5f48b4d644f0289" "20260517063910.391":
+  entity plic_gateway at 30( 1418) + 0 on 4;
+  architecture rtl of plic_gateway at 56( 2006) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/plic/grplic.vhd" "2444e7cb7b9ad90202fc79b8dcc0b265a0936bd5" "20260517063910.382":
+  entity grplic at 41( 1996) + 0 on 4;
+  architecture rtl of grplic at 73( 2953) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/subsys/leon_dsu_stat_base.vhd" "1692f2ffe4e1ead2584a17cbe497cd5eef1290ef" "20260517063910.372":
+  entity leon_dsu_stat_base at 44( 1816) + 0 on 4;
+  architecture rtl of leon_dsu_stat_base at 163( 6520) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/grdmac2_axi.vhd" "38a1ba784c3e402f46d58bcaaabf6fb894261aed" "20260517063910.361":
+  entity grdmac2_axi at 26( 1298) + 0 on 4;
+  architecture rtl of grdmac2_axi at 91( 4381) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/grdmac2_ahb.vhd" "6993c1547c82fdfd67a71ae60efa0f6866e8f43e" "20260517063910.351":
+  entity grdmac2_ahb at 26( 1298) + 0 on 4;
+  architecture rtl of grdmac2_ahb at 91( 4617) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/grdmac2_ctrl.vhd" "15fd5becbabe9c6cee19e0c5b7145a15c8a7e523" "20260517063910.341":
+  entity grdmac2_ctrl at 26( 1303) + 0 on 4;
+  architecture rtl of grdmac2_ctrl at 108( 6061) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/mem2buf.vhd" "48d2339acb15478c6c4a3e47050ab976f8a501d7" "20260517063910.328":
+  entity mem2buf at 27( 1368) + 0 on 4;
+  architecture rtl of mem2buf at 85( 4348) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/grdmac2_pkg.vhd" "d9143890382d56386c0f16891e458f2fd94413b5" "20260517063910.318":
+  package grdmac2_pkg at 27( 1299) + 0 on 4;
+  package body grdmac2_pkg at 992( 36899) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac/grdmac.vhd" "80647b3a2e6188b4bcfcb74f5f6c0d4a46a5bf45" "20260517063910.307":
+  entity grdmac at 29( 1453) + 0 on 4;
+  architecture rtl of grdmac at 78( 3086) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac/grdmac_ahbmst.vhd" "ae5b5dae8b8a6c3826996e3b4773c6354ad56c19" "20260517063910.296":
+  entity grdmac_ahbmst at 28( 1386) + 0 on 4;
+  architecture rtl of grdmac_ahbmst at 58( 2092) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac/grdmac_pkg.vhd" "594531f9c1871d9cd4cfe1904ef27cb183332eea" "20260517063910.286":
+  package grdmac_pkg at 27( 1315) + 0 on 4;
+  package body grdmac_pkg at 181( 6832) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spi_flash.vhd" "96691e74049f36971e96debedc45f8d8677ab7ea" "20260517063910.276":
+  entity spi_flash at 50( 2444) + 0 on 4;
+  architecture sim of spi_flash at 91( 3614) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spi2ahb.vhd" "28b2d3a8a8378b062dda98ad8af3c156660f7598" "20260517063910.264":
+  entity spi2ahb at 29( 1412) + 0 on 4;
+  architecture rtl of spi2ahb at 68( 2238) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spictrl.vhd" "de2bc315d35f58412b7dcc0599d7538f2a2a15cf" "20260517063910.254":
+  entity spictrl at 29( 1330) + 0 on 4;
+  architecture rtl of spictrl at 93( 4005) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spimctrl.vhd" "3eb8c50a3e54a54087ba15592b249c291c3fda4c" "20260517063910.243":
+  entity spimctrl at 52( 2486) + 0 on 4;
+  architecture rtl of spimctrl at 107( 5420) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2c2ahb_apb_gen.vhd" "860174d8d3da2ca44a3488e4468a2cfe6f2b1a66" "20260517063910.232":
+  entity i2c2ahb_apb_gen at 28( 1371) + 0 on 4;
+  architecture rtl of i2c2ahb_apb_gen at 98( 3647) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2c2ahb_apb.vhd" "fef14abe1c9f1951d7ba9cf073097c5df4b365ae" "20260517063910.222":
+  entity i2c2ahb_apb at 31( 1565) + 0 on 4;
+  architecture rtl of i2c2ahb_apb at 82( 2844) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2c2ahbx.vhd" "f84c2309de3be4cb8dbc1ec133b7fb62910b67c1" "20260517063910.211":
+  entity i2c2ahbx at 87( 4001) + 0 on 4;
+  architecture rtl of i2c2ahbx at 122( 4737) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2cmst_gen.vhd" "1f06bd0bc8e66ba2e508cf9297fe405753cea093" "20260517063910.201":
+  entity i2cmst_gen at 28( 1261) + 0 on 4;
+  architecture rtl of i2cmst_gen at 69( 2400) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2c.vhd" "4a7b6bcdc1660adf6897afb0ae2b8a713fb49dfe" "20260517063910.191":
+  package i2c at 27( 1260) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/hssl/hssl.vhd" "7651291a3e03b92ae7497fc20f624da846ce3a40" "20260517063910.180":
+  package hssl at 21( 1065) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/word_aligner.vhd" "1a86c093c93f344ad36de9079f85328ccfa326cf" "20260517063910.169":
+  entity word_aligner at 26( 1309) + 0 on 4;
+  architecture word_arch of word_aligner at 40( 1738) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/elastic_buffer.vhd" "90090645a8cb03450a8d2462e77209cb3b975cc8" "20260517063910.158":
+  entity elastic_buffer at 26( 1303) + 0 on 4;
+  architecture arch of elastic_buffer at 49( 1754) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/rgmii_series6.vhd" "31e06ace49362d0746589a5ea511bc21b31d48d3" "20260517063910.149":
+  entity rgmii_series6 at 26( 1290) + 0 on 4;
+  architecture rtl of rgmii_series6 at 76( 2507) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/rgmii_kc705.vhd" "b147bcb1923cf31a601dae6b21c6992c0fbca5b5" "20260517063910.138":
+  entity rgmii_kc705 at 26( 1290) + 0 on 4;
+  architecture rtl of rgmii_kc705 at 77( 2540) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/grethm_mb.vhd" "8577230ff5b7d61712929562df472467422fa4f6" "20260517063910.127":
+  entity grethm_mb at 26( 1284) + 0 on 4;
+  architecture rtl of grethm_mb at 98( 4211) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/greths_mb.vhd" "cecb6d373e87a88ab97e8c044d2f6f50915f6cee" "20260517063910.118":
+  entity greths_mb at 28( 1414) + 0 on 4;
+  architecture rtl of greths_mb at 125( 4889) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/greths.vhd" "fef301db216b0d6e6e744c3820f7d2fef2249cca" "20260517063910.108":
+  entity greths at 27( 1364) + 0 on 4;
+  architecture rtl of greths at 121( 4671) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/greth_mb.vhd" "eaf1293062201742143781a8608acaa35c79fcff" "20260517063910.098":
+  entity greth_mb at 27( 1348) + 0 on 4;
+  architecture rtl of greth_mb at 94( 3649) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/ethernet_mac.vhd" "0f22d9a73cf1ca30f57b0ae20b419c89e23a830e" "20260517063910.088":
+  package ethernet_mac at 22( 1066) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/jtagtst.vhd" "e58b44fd83d6677782c5e7ceccb2028c56e60215" "20260517063910.078":
+  package jtagtst at 29( 1315) + 0 on 4;
+  package body jtagtst at 146( 7022) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/jtagcomrv.vhd" "42af703bdfae321d89163d462782259846e26034" "20260517063910.068":
+  entity jtagcomrv at 29( 1382) + 0 on 4;
+  architecture rtl of jtagcomrv at 62( 2132) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/ahbjtag_exttap.vhd" "81e6c1b52ec08a8a9393e2c53ffab106df3bb99d" "20260517063910.059":
+  entity ahbjtag_exttap at 27( 1326) + 0 on 4;
+  architecture struct of ahbjtag_exttap at 70( 2546) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/jtagcom2.vhd" "6a607bba6a9dadc318b6f184f438ef8c154997ef" "20260517063910.049":
+  entity jtagcom2 at 29( 1385) + 0 on 4;
+  architecture rtl of jtagcom2 at 62( 2134) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/bscanregs.vhd" "3b6b5ec98522d5a14c04d7c4fe9ebc46cafbc235" "20260517063910.040":
+  entity bscanregs at 27( 1296) + 0 on 4;
+  architecture hier of bscanregs at 55( 1941) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/libjtagcom.vhd" "f77ca319b1970bed01c5e332cf102c6ad986f519" "20260517063910.030":
+  package libjtagcom at 27( 1313) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/htif.vhd" "bcf326f7aefee0563a3f69bda90dd3eb248d109d" "20260517063910.021":
+  entity htif_sim at 27( 1296) + 0 on 4;
+  architecture rtl of htif_sim at 61( 2143) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/dfi_phy_sim.vhd" "7eb75b7c1dfd848817dadbdf29f16823a2483031" "20260517063910.011":
+  entity dfi_phy_sim at 27( 1307) + 0 on 4;
+  architecture sim of dfi_phy_sim at 107( 5270) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/delay_wire2.vhd" "d56ef9b6f471fdff826a201830549b4057270af7" "20260517063910.001":
+  entity delay_wire2 at 33( 1612) + 0 on 4;
+  architecture rtl of delay_wire2 at 51( 1919) + 0 on 4;
+  entity delay_wire2_bus at 112( 3986) + 0 on 4;
+  architecture rtl of delay_wire2_bus at 133( 4481) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/axixmem.vhd" "3b35584d66af21f25ab9e3dcd14db39caadff4d2" "20260517063909.991":
+  entity axixmem at 28( 1357) + 0 on 4;
+  architecture sim of axixmem at 54( 1835) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/aximem.vhd" "be3db499a0de08a564e579369d2fc2ecdc6abb6a" "20260517063909.981":
+  entity aximem at 27( 1301) + 0 on 4;
+  architecture sim of aximem at 52( 1718) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/sdrtestmod.vhd" "be30d8e900eb4b8baf44c563cc960b7570c75866" "20260517063909.972":
+  entity sdrtestmod at 27( 1308) + 0 on 4;
+  architecture sim of sdrtestmod at 57( 2054) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/ddr2ram.vhd" "55c220d5a2a003aba09371cfa475c41502a6425c" "20260517063909.961":
+  entity ddr2ram at 29( 1336) + 0 on 4;
+  architecture sim of ddr2ram at 77( 2967) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/slavecheck_slv.vhd" "6c35f9ca4156015f0bc2e8bbe92f12afff7df2da" "20260517063909.950":
+  entity slavecheck_slv at 29( 1339) + 0 on 4;
+  architecture sim of slavecheck_slv at 59( 2086) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/pwm_check.vhd" "bc0edac8df55e94803f04e11ac3dc409665bf033" "20260517063909.941":
+  entity pwm_check at 35( 1825) + 0 on 4;
+  architecture sim of pwm_check at 56( 2312) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/ahbrep.vhd" "3cb34f341dd1a4489f32704edbbb4a442a6ada09" "20260517063909.931":
+  entity ahbrep at 33( 1495) + 0 on 4;
+  architecture rtl of ahbrep at 60( 2029) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/phy.vhd" "83825f0e50cec659cf502e79ccb47e0b4712ccff" "20260517063909.922":
+  entity phy at 29( 1286) + 0 on 4;
+  architecture behavioral of phy at 75( 2863) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/sram.vhd" "c2955a566d056525970484f7f868931fd64e0a3e" "20260517063909.911":
+  entity sram at 29( 1301) + 0 on 4;
+  architecture sim of sram at 53( 1895) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/uart/ahbuart.vhd" "fd1d8d613f7f367de6fce4da4371a90894975a37" "20260517063909.901":
+  entity ahbuart at 27( 1297) + 0 on 4;
+  architecture struct of ahbuart at 56( 1945) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/uart/dcom.vhd" "a5f033ccd7f249aa3f5a809a72c5306c4b669e41" "20260517063909.892":
+  entity dcom at 27( 1286) + 0 on 4;
+  architecture struct of dcom at 50( 1794) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/uart/apbuart.vhd" "300f67662c3ac46c2e3b4d703ee557efbd37fb91" "20260517063909.882":
+  entity apbuart at 30( 1501) + 0 on 4;
+  architecture rtl of apbuart at 66( 2370) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/uart/uart.vhd" "6ecaf16de22dc794571caf9aecb8e7c2644f20b9" "20260517063909.872":
+  package uart at 27( 1266) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/grtachom.vhd" "22309fdb306c206bdbb845099f254bf8fb79c645" "20260517063909.861":
+  entity grtachom at 26( 1247) + 0 on 4;
+  architecture rtl of grtachom at 59( 2117) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbsmux.vhd" "0f1358e5d8e5e9a109fc72c99a8ebb9b75150401" "20260517063909.852":
+  entity ahbsmux at 29( 1305) + 0 on 4;
+  architecture rtl of ahbsmux at 60( 1893) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/grversion.vhd" "093ddbab8265cbae22541bea3cd1fa289e1b72f5" "20260517063909.842":
+  entity grversion at 41( 1809) + 0 on 4;
+  architecture rtl of grversion at 69( 2480) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahb_mst_iface.vhd" "c56cb7da67f0d4577af92cc90924175607fb1805" "20260517063909.833":
+  entity ahb_mst_iface at 28( 1391) + 0 on 4;
+  architecture rtl of ahb_mst_iface at 55( 2040) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/gracectrl.vhd" "0864cb9d218bdec17ec6892502e53c79322cdb85" "20260517063909.823":
+  entity gracectrl at 28( 1371) + 0 on 4;
+  architecture rtl of gracectrl at 61( 2514) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/svgactrl.vhd" "4d1d01a46655cc533f2409e257f641771a3648dd" "20260517063909.813":
+  entity svgactrl at 29( 1361) + 0 on 4;
+  architecture rtl of svgactrl at 75( 2703) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/charrom.vhd" "2722cd2d76643206350a5a8cbdb75f6e2dc7b240" "20260517063909.805":
+  entity charrom at 26( 1279) + 0 on 4;
+  architecture rtl of charrom at 39( 1542) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/apbps2.vhd" "b8f440e7366c1a59f732bc2cc51f0a531cbefc6c" "20260517063909.794":
+  entity apbps2 at 28( 1311) + 0 on 4;
+  architecture rtl of apbps2 at 58( 2049) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbstat.vhd" "c2a3e1d91fa27f05c7d0e1d6b60cb1e1a62ccede" "20260517063909.785":
+  entity ahbstat at 28( 1309) + 0 on 4;
+  architecture rtl of ahbstat at 58( 1953) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbtrace.vhd" "5cf99080ab57dc411f1fed3e58931471cd63e7a1" "20260517063909.776":
+  entity ahbtrace at 27( 1262) + 0 on 4;
+  architecture rtl of ahbtrace at 64( 2251) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbtrace_mmb.vhd" "9fe44d93cc212f13a28c660d0d1684d3344c44fd" "20260517063909.766":
+  entity ahbtrace_mmb at 29( 1433) + 0 on 4;
+  architecture rtl of ahbtrace_mmb at 66( 2524) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbram.vhd" "fc50a72a83ef98009425172ecc36c897d1039f44" "20260517063909.757":
+  entity ahbram at 28( 1340) + 0 on 4;
+  architecture rtl of ahbram at 57( 2012) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/rstgen.vhd" "5995f9053bda42e936488ca78df6f9e46f537436" "20260517063909.746":
+  entity rstgen at 27( 1279) + 0 on 4;
+  architecture rtl of rstgen at 50( 1765) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/axi2ahb.vhd" "86607aa12a20fd2b1e2fd1e3579864c43d35caec" "20260517063909.737":
+  entity axi2ahb at 29( 1331) + 0 on 4;
+  architecture rtl of axi2ahb at 70( 2740) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/axis_gearbox.vhd" "ecdf9b2b673fdd687ad642c398261df13a767d4e" "20260517063909.726":
+  entity axis_gearbox at 33( 1703) + 0 on 4;
+  architecture rtl of axis_gearbox at 61( 2310) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/ahb2axi_l.vhd" "6527162c3ba30be8b717a47024d5d5851a0a43ed" "20260517063909.717":
+  entity ahb2axi_l at 27( 1327) + 0 on 4;
+  architecture rtl of ahb2axi_l at 65( 2448) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/ahb2axi3b.vhd" "1fd33024f01352f17168e614c095731937dc98cc" "20260517063909.708":
+  entity ahb2axi3b at 27( 1299) + 0 on 4;
+  architecture rtl of ahb2axi3b at 79( 3360) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/axinullslv.vhd" "780a5e4a48d433568312c5f075360fea6c0cddbb" "20260517063909.698":
+  entity axinullslv at 27( 1317) + 0 on 4;
+  architecture rtl of axinullslv at 42( 1571) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/ahbm2axi3.vhd" "cd98b337b410c0ee436acdcb9805dbfb5ece5c57" "20260517063909.689":
+  entity ahbm2axi3 at 27( 1313) + 0 on 4;
+  architecture rtl of ahbm2axi3 at 65( 2252) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/axi.vhd" "98ae9737073a231a0e0aa0795718bc7c980f3847" "20260517063909.678":
+  package axi at 27( 1277) + 0 on 4;
+  package body axi at 523( 20806) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/can/canmux.vhd" "1e7b4a67a2ac26ab48dcbd41f67317c88c1e6b21" "20260517063909.669":
+  entity canmux at 7( 335) + 0 on 4;
+  architecture rtl of canmux at 20( 607) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/can/can_oc.vhd" "be74ad3a06b053c3141389515074706d2b372356" "20260517063909.661":
+  entity can_oc at 27( 1303) + 0 on 4;
+  architecture rtl of can_oc at 59( 2165) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/can/can.vhd" "dc5ac90cfe5af181ac102577ac326325ce83c7e0" "20260517063909.651":
+  package can at 27( 1264) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/irqmp/irqmp_bmode.vhd" "19617fa1b595c7188e51a486923355af3a3d16cb" "20260517063909.643":
+  entity irqmp_bmode at 69( 3197) + 0 on 4;
+  architecture rtl of irqmp_bmode at 101( 3914) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/irqmp/irqmp.vhd" "7330e74c4c2c46ea1ba42e6069e787e2d4a7761c" "20260517063909.632":
+  entity irqmp at 28( 1350) + 0 on 4;
+  architecture rtl of irqmp at 62( 2173) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/cmvalidbits.vhd" "9ed35751315cc0eec66c2d074e55645f05bfadd1" "20260517063909.623":
+  entity cmvalidbits at 27( 1330) + 0 on 4;
+  architecture rtl of cmvalidbits at 51( 1906) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/leon3sh.vhd" "4f755387b09bd863481ea5adf6531447904825a0" "20260517063909.615":
+  entity leon3sh at 27( 1287) + 0 on 4;
+  architecture rtl of leon3sh at 106( 4724) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/leon3cg.vhd" "1c5785018c5b000ab8764c4cbaf39de7d4c76248" "20260517063909.606":
+  entity leon3cg at 27( 1305) + 0 on 4;
+  architecture rtl of leon3cg at 105( 4761) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/grfpwxsh.vhd" "aa33ce5a4338d444e45542b1e5e1f356a4aa92e5" "20260517063909.597":
+  entity grfpwxsh at 27( 1289) + 0 on 4;
+  architecture rtl of grfpwxsh at 59( 2095) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/iu3.vhd" "f1e7e6b7d2d00559c90c48625524cc7771a53acc" "20260517063909.588":
+  entity iu3 at 29( 1444) + 0 on 4;
+  architecture rtl of iu3 at 113( 4157) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/grfpwx.vhd" "cc9fcb468c16b193d40e11248610f858538b125e" "20260517063909.576":
+  entity grfpwx at 27( 1301) + 0 on 4;
+  architecture rtl of grfpwx at 59( 2191) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/cachemem.vhd" "4356c6eaec13858874dae591cbbeb6861a778968" "20260517063909.567":
+  entity cachemem at 27( 1319) + 0 on 4;
+  architecture rtl of cachemem at 74( 2759) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/mmu_icache.vhd" "16489278b481ddbf688bb6be9b8e591172b36ac0" "20260517063909.557":
+  entity mmu_icache at 28( 1376) + 0 on 4;
+  architecture rtl of mmu_icache at 79( 2776) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/regfile_3p_l3.vhd" "b8de868d416b9f78636deddfe67aed87cdc21f1b" "20260517063909.547":
+  entity regfile_3p_l3 at 27( 1336) + 0 on 4;
+  architecture rtl of regfile_3p_l3 at 56( 2243) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/libcache.vhd" "bed578b36e3cf3394ed2f3792ac6cec29ebbcebc" "20260517063909.538":
+  package libcache at 27( 1312) + 0 on 4;
+  package body libcache at 592( 24057) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/libfpu.vhd" "11c413dc65cf29826aab99137d7540b34e70f035" "20260517063909.529":
+  package libfpu at 28( 1300) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/dsu3.vhd" "e78083b6e46fc42784fe37077d22bb9cf5ac8604" "20260517063909.521":
+  entity dsu3 at 27( 1316) + 0 on 4;
+  architecture rtl of dsu3 at 65( 2270) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/tbufmem_2p.vhd" "693e3a3986bb253895989e2bbb4902742e904dd9" "20260517063909.511":
+  entity tbufmem_2p at 28( 1370) + 0 on 4;
+  architecture rtl of tbufmem_2p at 54( 1919) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3/grfpushwx.vhd" "9451f63c00051bd0358805b96ca049f624f50b47" "20260517063909.503":
+  entity grfpushwx at 8( 310) + 0 on 4;
+  architecture rtl of grfpushwx at 30( 783) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmu.vhd" "6521b3a5ffb9f6b7834d1453be1e82af2271b494" "20260517063909.493":
+  entity mmu at 27( 1278) + 0 on 4;
+  architecture rtl of mmu at 68( 2253) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmutlb.vhd" "404984a09e79226d67813a73d863b447bb473d83" "20260517063909.485":
+  entity mmutlb at 27( 1271) + 0 on 4;
+  architecture rtl of mmutlb at 62( 2138) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmulrue.vhd" "6799aa34605b828cc60215bf08f20bf57c0126bf" "20260517063909.476":
+  entity mmulrue at 27( 1273) + 0 on 4;
+  architecture rtl of mmulrue at 49( 1726) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/libmmu.vhd" "5d1b593e4d9f73500685a06e7ea4fe22c7f110e9" "20260517063909.467":
+  package libmmu at 27( 1282) + 0 on 4;
+  package body libmmu at 105( 4157) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmuconfig.vhd" "0752d612b8def75e879040c29f87a787fc10b77d" "20260517063909.458":
+  package mmuconfig at 27( 1288) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/memctrl/sdmctrl.vhd" "3f23b7e21a5cf0926c8873a88351aad5f2a9cb7e" "20260517063909.449":
+  entity sdmctrl at 27( 1322) + 0 on 4;
+  architecture rtl of sdmctrl at 58( 1997) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/memctrl/sdctrl.vhd" "d1089ebd9d3ad72d66cc4cbd38b31f5f33c773fc" "20260517063909.440":
+  entity sdctrl at 27( 1279) + 0 on 4;
+  architecture rtl of sdctrl at 64( 2132) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/arith/div32.vhd" "a87e2aad31f087a100c8dd98fa5bcfb601d083a4" "20260517063909.430":
+  entity div32 at 34( 1656) + 0 on 4;
+  architecture rtl of div32 at 56( 2125) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/arith/arith.vhd" "cda0e574b7168cc56bd27da5095d9721fd937358" "20260517063909.422":
+  package arith at 27( 1275) + 0 on 4;
+  package body arith at 106( 3608) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/arith/mul32.vhd" "909a78f8a4cacdea8d908d298694e3a8e4655d3e" "20260517063909.426":
+  entity mul32 at 28( 1329) + 0 on 4;
+  architecture rtl of mul32 at 60( 2059) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/memctrl/memctrl.vhd" "468d63fe22f2cccff3b34ea984e3ce62a673f02d" "20260517063909.435":
+  package memctrl at 27( 1274) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/memctrl/sdctrl64.vhd" "8485079044f5c0ca1952309c65ee8f8c01f43a84" "20260517063909.444":
+  entity sdctrl64 at 30( 1446) + 0 on 4;
+  architecture rtl of sdctrl64 at 64( 2222) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/memctrl/srctrl.vhd" "20349d6b0f01ab0d86e0960fbf9e19471451474a" "20260517063909.454":
+  entity srctrl at 29( 1422) + 0 on 4;
+  architecture rtl of srctrl at 70( 2487) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmuiface.vhd" "5094897e465937e2ac18658944d9c9a2c933766a" "20260517063909.463":
+  package mmuiface at 27( 1303) + 0 on 4;
+  package body mmuiface at 268( 8528) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmutlbcam.vhd" "be877f33970f03f6ea2e81b9831ea77e0b0d8640" "20260517063909.472":
+  entity mmutlbcam at 27( 1277) + 0 on 4;
+  architecture rtl of mmutlbcam at 52( 1815) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmulru.vhd" "7a0d36f64dad61f92faf4796ec9e4dbd59c0dd57" "20260517063909.480":
+  entity mmulru at 27( 1271) + 0 on 4;
+  architecture rtl of mmulru at 50( 1703) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/srmmu/mmutw.vhd" "27caac534b1a68cf1137b655e9a3241ac3833a61" "20260517063909.489":
+  entity mmutw at 27( 1276) + 0 on 4;
+  architecture rtl of mmutw at 54( 1857) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3/leon3.vhd" "3bb8a80e3ad1240ca79befcba9ceffe3ff487a6b" "20260517063909.499":
+  package leon3 at 28( 1284) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/tbufmem.vhd" "0e4c207d5c3537c8428db776770490dcf595aa94" "20260517063909.507":
+  entity tbufmem at 27( 1283) + 0 on 4;
+  architecture rtl of tbufmem at 53( 1826) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/dsu3x.vhd" "d7092140ed7104c6d11aebfe561a49bfc7188a60" "20260517063909.516":
+  entity dsu3x at 27( 1316) + 0 on 4;
+  architecture rtl of dsu3x at 75( 2599) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/dsu3_mb.vhd" "6a5fe8be1f2dda1529d9451106129cef97d74bfa" "20260517063909.525":
+  entity dsu3_mb at 28( 1363) + 0 on 4;
+  architecture rtl of dsu3_mb at 67( 2350) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/libiu.vhd" "1479e20b7168cc308d4c28ab4bad0afd741401db" "20260517063909.534":
+  package libiu at 27( 1285) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/libleon3.vhd" "43b83f511f55830091bc1980dc23ca9a556ac15b" "20260517063909.543":
+  package libleon3 at 27( 1287) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/mmu_acache.vhd" "d881a0c5fc940c1ec1b19417bf96aae2b07075a2" "20260517063909.552":
+  entity mmu_acache at 27( 1338) + 0 on 4;
+  architecture rtl of mmu_acache at 68( 2309) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/mmu_dcache.vhd" "052de3085297c51f7401e1cfc1289424ea1ada7c" "20260517063909.562":
+  entity mmu_dcache at 28( 1369) + 0 on 4;
+  architecture rtl of mmu_dcache at 92( 3621) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/mmu_cache.vhd" "38b92b78ce6417ca93ab1e0cf71559c029c510c8" "20260517063909.572":
+  entity mmu_cache at 27( 1282) + 0 on 4;
+  architecture rtl of mmu_cache at 102( 4078) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/grlfpwx.vhd" "a013ed0631947d5f660dfd912ea9fa96ab2751c2" "20260517063909.581":
+  entity grlfpwx at 27( 1310) + 0 on 4;
+  architecture rtl of grlfpwx at 61( 2208) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/proc3.vhd" "16922a96aa9757ab6c2dfc6135893731b2194ec1" "20260517063909.593":
+  entity proc3 at 27( 1315) + 0 on 4;
+  architecture rtl of proc3 at 135( 5348) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/leon3x.vhd" "1c1f0f431aa361351ba813209e8b054e552b3116" "20260517063909.602":
+  entity leon3x at 27( 1319) + 0 on 4;
+  architecture rtl of leon3x at 126( 5513) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/leon3s.vhd" "e70b7bfc0bfcbbb8903f51e7ebede07d05e83459" "20260517063909.610":
+  entity leon3s at 27( 1285) + 0 on 4;
+  architecture rtl of leon3s at 104( 4559) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon3v3/l3stat.vhd" "0d8fb359de4c0099f83b4362adf2213f665c420b" "20260517063909.619":
+  entity l3stat at 28( 1317) + 0 on 4;
+  architecture rtl of l3stat at 76( 2633) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/leon4/leon4.vhd" "c9a98fc77748449d4012209809f09bd83f3779ca" "20260517063909.628":
+  package leon4 at 28( 1256) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/irqmp/irqamp.vhd" "cecfcb55073b914446c95d874a152796ca9785c1" "20260517063909.638":
+  entity irqamp at 31( 1526) + 0 on 4;
+  architecture rtl of irqamp at 75( 2918) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/l2cache/pkg/l2cache.vhd" "d73291d2ed3cb88750c5430a1d4ba4b8492ca953" "20260517063909.647":
+  package l2cache at 27( 1299) + 0 on 4;
+  package body l2cache at 250( 8733) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/can/can_mod.vhd" "53250047c17a5b1c4dd8d6aa30fe5fff08ac91a8" "20260517063909.656":
+  entity can_mod at 27( 1297) + 0 on 4;
+  architecture rtl of can_mod at 57( 2231) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/can/can_mc.vhd" "b3267cc859b020f82694a80a440e341734c5e342" "20260517063909.665":
+  entity can_mc at 27( 1303) + 0 on 4;
+  architecture rtl of can_mc at 60( 2314) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/can/can_rd.vhd" "df92a9eed815bde35042ab8ba9830f8d60a49504" "20260517063909.673":
+  entity can_rd at 27( 1303) + 0 on 4;
+  architecture rtl of can_rd at 57( 2153) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/ahbm2axi.vhd" "31a23a269a84b39ecad8f3a7ea4be5dc89c05500" "20260517063909.684":
+  entity ahbm2axi at 27( 1323) + 0 on 4;
+  architecture rtl of ahbm2axi at 66( 2529) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/ahbm2axi4.vhd" "b0503993aa213ac8da610eb207f38fc1cc0a7168" "20260517063909.693":
+  entity ahbm2axi4 at 27( 1313) + 0 on 4;
+  architecture rtl of ahbm2axi4 at 65( 2357) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/ahb2axib.vhd" "83c39d9535853da275fd10f93a2c8a7a96d3ca9b" "20260517063909.703":
+  entity ahb2axib at 27( 1304) + 0 on 4;
+  architecture rtl of ahb2axib at 87( 4022) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/ahb2axi4b.vhd" "1b9861fbd7bca3f827669c4ada886ed400133ced" "20260517063909.713":
+  entity ahb2axi4b at 27( 1299) + 0 on 4;
+  architecture rtl of ahb2axi4b at 79( 3500) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/axis_buffer.vhd" "34aec7814b971ccf3a7010cb0029006352088ff5" "20260517063909.722":
+  entity axis_buffer at 28( 1371) + 0 on 4;
+  architecture rtl of axis_buffer at 53( 1872) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/axi/axi4_resize.vhd" "1511bb9de0f8d0216bcd28d81d3ca5f7a5bf4638" "20260517063909.732":
+  entity axi4_resize at 30( 1501) + 0 on 4;
+  architecture rtl of axi4_resize at 148( 6182) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/misc.vhd" "29f728f3f676eb14a42d14be4dca8ffe68f2a705" "20260517063909.742":
+  package misc at 27( 1238) + 0 on 4;
+  package body misc at 1775( 61312) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/gptimer.vhd" "abb4aacff75b314de99dafe27a9bef90038c0b66" "20260517063909.752":
+  entity gptimer at 42( 1935) + 0 on 4;
+  architecture rtl of gptimer at 84( 3069) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbdpram.vhd" "aece7d6ab03f71be2d34aeee60aaf831b7d5f54c" "20260517063909.761":
+  entity ahbdpram at 27( 1297) + 0 on 4;
+  architecture rtl of ahbdpram at 62( 2323) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbtrace_mb.vhd" "19b176b5ab91ea3b4ba41308d10f117c6846ea34" "20260517063909.771":
+  entity ahbtrace_mb at 28( 1359) + 0 on 4;
+  architecture rtl of ahbtrace_mb at 66( 2430) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/grgpio.vhd" "0278c9325b498ba9ddd7da0c7968c793d4c60035" "20260517063909.780":
+  entity grgpio at 27( 1277) + 0 on 4;
+  architecture rtl of grgpio at 74( 2549) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/logan.vhd" "0df1fc8c6dc26c91f74558f8acc32273a50e4f73" "20260517063909.789":
+  entity logan at 27( 1277) + 0 on 4;
+  architecture rtl of logan at 62( 2708) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/charrom_package.vhd" "8e0ab412869b521a966ace399404297f7329bdcb" "20260517063909.798":
+  package charrom_package at 27( 1289) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/apbvga.vhd" "e0564dd704923125affb9fc6b3e059166a973e34" "20260517063909.809":
+  entity apbvga at 27( 1256) + 0 on 4;
+  architecture rtl of apbvga at 55( 2093) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/grsysmon.vhd" "551332a0daa3a94ceb4860837a0c126c2d66ac4e" "20260517063909.818":
+  entity grsysmon at 26( 1247) + 0 on 4;
+  architecture rtl of grsysmon at 87( 3359) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/grgpreg.vhd" "e95847a29ac15200cfa46165103ded8874d10c66" "20260517063909.828":
+  entity grgpreg at 27( 1275) + 0 on 4;
+  architecture rtl of grgpreg at 61( 2127) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/grgprbank.vhd" "92691b362baa1441bec9b29d79042dcb0766d46f" "20260517063909.837":
+  entity grgprbank at 27( 1280) + 0 on 4;
+  architecture rtl of grgprbank at 61( 2200) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/apb3cdc.vhd" "d0b6ecf19a395bb4296b0c5045f7dfe65721dd22" "20260517063909.847":
+  entity apb3cdc at 27( 1293) + 0 on 4;
+  architecture rtl of apb3cdc at 56( 1929) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/misc/ahbmmux.vhd" "3a24cfc487eb87800cc0187ac574116a7d2a78ff" "20260517063909.857":
+  entity ahbmmux at 29( 1305) + 0 on 4;
+  architecture rtl of ahbmmux at 57( 1798) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/net/net.vhd" "ba17611a37bc97930b51e5ae26674c2d7a908956" "20260517063909.867":
+  package net at 27( 1318) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/uart/libdcom.vhd" "ea430feb6866efe09737f9c71fe06349e70fd9c1" "20260517063909.877":
+  package libdcom at 27( 1290) + 0 on 4;
+  package body libdcom at 108( 3125) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/uart/apbuart_16550.vhd" "7250008216b57286835e12b42276590de392c464" "20260517063909.887":
+  entity apbuart_16550 at 30( 1510) + 0 on 4;
+  architecture rtl of apbuart_16550 at 65( 2340) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/uart/dcom_uart.vhd" "d5893bdb30d500c44760e8f59c0d065c3d194392" "20260517063909.896":
+  entity dcom_uart at 27( 1309) + 0 on 4;
+  architecture rtl of dcom_uart at 60( 2019) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/sim.vhd" "7817f148d98cc1c42ecc74a61afef123b5a78b34" "20260517063909.907":
+  package sim at 29( 1323) + 0 on 4;
+  package body sim at 1040( 36966) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/sram16.vhd" "7d992cffa184bc53220de68b7b570996ee7a8156" "20260517063909.916":
+  entity sram16 at 29( 1312) + 0 on 4;
+  architecture sim of sram16 at 57( 2024) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/ser_phy.vhd" "4221f086a7e7907dc1436850d186950cd49ad01a" "20260517063909.926":
+  entity ser_phy at 29( 1324) + 0 on 4;
+  architecture behavioral of ser_phy at 86( 3049) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/delay_wire.vhd" "550a318145481f6e49fcb84880ba0a399340b275" "20260517063909.936":
+  entity delay_wire at 25( 1181) + 0 on 4;
+  architecture rtl of delay_wire at 41( 1565) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/ramback.vhd" "fa63cc95423ac63792eab37d5e3d539ce8b6de7b" "20260517063909.945":
+  entity ramback at 29( 1312) + 0 on 4;
+  architecture sim of ramback at 63( 2353) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/ddrram.vhd" "e148ea2f526ccf0ade1314f39e9fa099b22d869b" "20260517063909.955":
+  entity ddrram at 29( 1331) + 0 on 4;
+  architecture sim of ddrram at 65( 2379) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/ddr3ram.vhd" "e271d7fce8b7da7568416017da0d0cf5322b82b9" "20260517063909.967":
+  entity ddr3ram at 29( 1335) + 0 on 4;
+  architecture sim of ddr3ram at 77( 2875) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/ahbram_sim.vhd" "5593b4a7f6d60a544e4b08f2ca3adf237cb3f7cd" "20260517063909.976":
+  entity ahbram_sim at 31( 1413) + 0 on 4;
+  architecture rtl of ahbram_sim at 66( 2166) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/axirep.vhd" "651f9314b1d6d26a07508a830397df3fe67441e0" "20260517063909.986":
+  entity axirep at 27( 1297) + 0 on 4;
+  architecture sim of axirep at 53( 1742) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/sramtestmod.vhd" "74a0c66f7b6f433feceab0142be8e38e9df9d189" "20260517063909.996":
+  entity sramtestmod at 45( 1887) + 0 on 4;
+  architecture sim of sramtestmod at 73( 2562) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/uartprint.vhd" "286196e5dc8a8e6b8e20fa201e1ff7e37ff15eea" "20260517063910.006":
+  entity uartprint at 29( 1331) + 0 on 4;
+  architecture sim of uartprint at 41( 1503) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/sim/dfi_phy_sim_fr.vhd" "e093d870113ce37374c3b43de9f63e81e284907f" "20260517063910.016":
+  entity dfi_phy_sim_fr at 27( 1335) + 0 on 4;
+  architecture sim of dfi_phy_sim_fr at 103( 5445) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/jtag.vhd" "7db9cd85de1547f06b4ced35f40d560f41d2a53b" "20260517063910.026":
+  package jtag at 27( 1257) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/jtagcom.vhd" "35b70f76f0043739da766a8d1bf4710f157bb3fc" "20260517063910.035":
+  entity jtagcom at 29( 1385) + 0 on 4;
+  architecture rtl of jtagcom at 63( 2203) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/bscanregsbd.vhd" "74e0672c72d551485570274882d2e06a0cec0bf3" "20260517063910.044":
+  entity bscanregsbd at 27( 1302) + 0 on 4;
+  architecture rtl of bscanregsbd at 61( 2500) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/ahbjtag.vhd" "513edb598a5ad1d48c9695eeda4380f9d1815fe8" "20260517063910.054":
+  entity ahbjtag at 27( 1331) + 0 on 4;
+  architecture struct of ahbjtag at 82( 2982) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/ahbjtag_bsd.vhd" "876969cfcebda511c6f403da4d6c175c02514ce1" "20260517063910.063":
+  entity ahbjtag_bsd at 27( 1331) + 0 on 4;
+  architecture struct of ahbjtag_bsd at 60( 2183) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/ahbjtagrv.vhd" "6880cdef29bf9840e61a29427d260cd98c14f13a" "20260517063910.073":
+  entity ahbjtagrv at 34( 1701) + 0 on 4;
+  architecture struct of ahbjtagrv at 94( 4355) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/jtag/jtag_rv.vhd" "1293949c779ff8ef04e7b14fa50593b11f25fdee" "20260517063910.083":
+  package jtag_rv at 29( 1330) + 0 on 4;
+  package body jtag_rv at 119( 4629) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/greth.vhd" "4af3f89eb10c8d78187ce7dfa1f6ff77db9ad3d6" "20260517063910.093":
+  entity greth at 27( 1311) + 0 on 4;
+  architecture rtl of greth at 90( 3448) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/greth_gbit.vhd" "36cca26d914ebab3ad2b5d30c12122a5fc429175" "20260517063910.103":
+  entity greth_gbit at 27( 1329) + 0 on 4;
+  architecture rtl of greth_gbit at 99( 4102) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/greth_gbit_mb.vhd" "f459e4822fc61b5532e50b1da7bea4df897ccdef" "20260517063910.113":
+  entity greth_gbit_mb at 27( 1366) + 0 on 4;
+  architecture rtl of greth_gbit_mb at 109( 4732) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/grethm.vhd" "51851d25d5d26f55320250e4b5c0e2ab983565bf" "20260517063910.123":
+  entity grethm at 26( 1266) + 0 on 4;
+  architecture rtl of grethm at 101( 4196) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/rgmii.vhd" "11f1827a037a56782f4bc53eb8124131bec91620" "20260517063910.133":
+  entity rgmii at 26( 1268) + 0 on 4;
+  architecture rtl of rgmii at 79( 2544) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/rgmii_series7.vhd" "635d0813be4207e828d786031d0f4fca462139e9" "20260517063910.143":
+  entity rgmii_series7 at 26( 1290) + 0 on 4;
+  architecture rtl of rgmii_series7 at 76( 2507) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/comma_detect.vhd" "70f963f4ffd28ac5d1973f822335653d55955755" "20260517063910.154":
+  entity comma_detect at 26( 1325) + 0 on 4;
+  architecture arch of comma_detect at 51( 2000) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/greth/adapters/gmii_to_mii.vhd" "d5c5f43fc0cf1d39bc7027541ff0bcd09dd8bac8" "20260517063910.163":
+  entity gmii_to_mii at 26( 1302) + 0 on 4;
+  architecture rtl of gmii_to_mii at 51( 1778) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spacewire/spacewire.vhd" "922293df61ca6e8064e1153a39272f7914c556d3" "20260517063910.174":
+  package spacewire at 21( 1065) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/usb/grusb.vhd" "df12f9fa661a3e9f86e326a481e6041ab54e0fca" "20260517063910.185":
+  package grusb at 27( 1302) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2cmst.vhd" "4f7810737c34b24cb3170bd8fb053e507ff20419" "20260517063910.196":
+  entity i2cmst at 58( 2926) + 0 on 4;
+  architecture rtl of i2cmst at 97( 3828) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2cslv.vhd" "694aae147364968b6a29403c76b6e8378c700011" "20260517063910.206":
+  entity i2cslv at 70( 2516) + 0 on 4;
+  architecture rtl of i2cslv at 109( 3464) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2c2ahb.vhd" "7baae0a7ff8dd9ea6f536befbe573a6d2f233f58" "20260517063910.217":
+  entity i2c2ahb at 29( 1412) + 0 on 4;
+  architecture rtl of i2c2ahb at 69( 2256) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/i2c/i2c2ahb_gen.vhd" "f9031ff68770d551bfb667fafad218b0a9f273b5" "20260517063910.227":
+  entity i2c2ahb_gen at 28( 1359) + 0 on 4;
+  architecture rtl of i2c2ahb_gen at 81( 2963) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spi.vhd" "789b5a59ebf351b6ed5b02f14398898383ac65ac" "20260517063910.237":
+  package spi at 27( 1261) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spictrlx.vhd" "67819d7d3800a4a80ccad3a4994923c942899178" "20260517063910.249":
+  entity spictrlx at 31( 1518) + 0 on 4;
+  architecture rtl of spictrlx at 116( 5050) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spi2ahbx.vhd" "c0b6e2d25d38c3b8791c3f8df2dc7db7130c8aa0" "20260517063910.259":
+  entity spi2ahbx at 100( 4917) + 0 on 4;
+  architecture rtl of spi2ahbx at 137( 5735) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/spi/spi2ahb_apb.vhd" "f26a82c92c306e7c1a62f8db19419f9fc08c4bf8" "20260517063910.270":
+  entity spi2ahb_apb at 31( 1565) + 0 on 4;
+  architecture rtl of spi2ahb_apb at 81( 2735) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/nand/nandpkg.vhd" "4456ac216d160a46cb3908a8d15489464ad5793a" "20260517063910.281":
+  package nandpkg at 27( 1285) + 0 on 4;
+  package body nandpkg at 103( 3707) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac/apbmem.vhd" "fef8a5da298ed51eedd7dc5dbcbed4c43fc50040" "20260517063910.291":
+  entity apbmem at 27( 1285) + 0 on 4;
+  architecture rtl of apbmem at 52( 1926) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac/grdmac_alignram.vhd" "8a004821073b5e562994fbe59f377ca7b902f2ad" "20260517063910.301":
+  entity grdmac_alignram at 31( 1625) + 0 on 4;
+  architecture rtl of grdmac_alignram at 64( 2626) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac/grdmac_1p.vhd" "de0af60b77cd2acd92dcfc38314f2eafb8ae7f22" "20260517063910.312":
+  entity grdmac_1p at 29( 1463) + 0 on 4;
+  architecture rtl of grdmac_1p at 73( 2877) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/grdmac2_apb.vhd" "346feb49041cdb28b0129dad5a072653cc538d4c" "20260517063910.323":
+  entity grdmac2_apb at 26( 1308) + 0 on 4;
+  architecture rtl of grdmac2_apb at 82( 4582) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/buf2mem.vhd" "11e6921bc5c4ac02fe9db7a95bd1300f9ce1f80d" "20260517063910.334":
+  entity buf2mem at 27( 1355) + 0 on 4;
+  architecture rtl of buf2mem at 88( 4593) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/grdmac2.vhd" "0c64cd19e0c7a6d446bc95b110803821285cbe69" "20260517063910.346":
+  entity grdmac2 at 26( 1285) + 0 on 4;
+  architecture rtl of grdmac2 at 88( 4134) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/grdmac2/grdmac2_acc.vhd" "ccd10cb23711452368572c1a59fb406a099697d1" "20260517063910.355":
+  entity grdmac2_acc at 27( 1334) + 0 on 4;
+  architecture rtl of grdmac2_acc at 66( 2866) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/subsys/subsys.vhd" "20f42c85672d7ed8445b1f7912020618dff2ac55" "20260517063910.366":
+  package subsys at 27( 1274) + 0 on 4;
+  package body subsys at 159( 6254) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/plic/plic.vhd" "8655a2af26b2e5e1003f800a3aa629217d413ae8" "20260517063910.376":
+  package plic at 27( 1288) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/plic/plic_encoder.vhd" "df996896b031542aac793d6999a58d8a848ade7c" "20260517063910.387":
+  entity plic_encoder at 36( 1771) + 0 on 4;
+  architecture rtl of plic_encoder at 63( 2472) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/plic/plic_target.vhd" "b601a41d544f66350d46989bc249d5e40bee9fe3" "20260517063910.396":
+  entity plic_target at 30( 1456) + 0 on 4;
+  architecture rtl of plic_target at 52( 1913) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/aplic/aplic.vhd" "b4bbbb9ea2470be7953b7e3924f078a7293b7ce4" "20260517063910.407":
+  package aplic at 28( 1286) + 0 on 4;
+  package body aplic at 159( 7126) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/aplic/aplic_encoder.vhd" "f1afa44654cfc8200f4a47243b9d38de8457912e" "20260517063910.418":
+  entity aplic_encoder at 39( 1958) + 0 on 4;
+  architecture rtl of aplic_encoder at 66( 3081) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/l2c_lite/l2c_lite.vhd" "bc7d0a39f153ff8b723568c2362fbc21fa5ef067" "20260517063910.428":
+  package l2c_lite at 21( 1065) + 0 on 4;
+  package body l2c_lite at 219( 7420) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/l2c_lite/l2c_lite_ahb.vhd" "1ba36d47e338e8dbef696972583c8a2c1ce64e7e" "20260517063910.440":
+  entity l2c_lite_ahb at 21( 1065) + 0 on 4;
+  architecture rtl of l2c_lite_ahb at 69( 2255) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/gaisler/l2c_lite/l2c_lite_axi4.vhd" "6454e4a979a074ec25021755cf1ca756acd52c10" "20260517063910.450":
+  entity l2c_lite_axi4 at 21( 1065) + 0 on 4;
+  architecture rtl of l2c_lite_axi4 at 70( 2118) + 0 on 4;

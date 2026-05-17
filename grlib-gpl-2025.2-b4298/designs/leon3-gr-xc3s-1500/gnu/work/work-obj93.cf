@@ -1,0 +1,25 @@
+v 4
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "testbench.vhd" "a70862edb967fe3d000d70ffc17d1800d5b7afbd" "20260517063910.513":
+  entity testbench at 25( 1241) + 0 on 4;
+  architecture behav of testbench at 56( 2140) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "vga_clkgen.vhd" "ac839379271cc0bf7224c3f80800c53003f41a65" "20260517063910.503":
+  entity vga_clkgen at 21( 988) + 0 on 4;
+  architecture struct of vga_clkgen at 43( 1415) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "config.vhd" "eafcc21b2e2f43f1a3659fd2d873243a2e344ac8" "20260517063910.495":
+  package config at 5( 251) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/work/debug/grtestmod.vhd" "ae39f6745f705be04353db7c1363eab452742348" "20260517063910.487":
+  entity grtestmod at 59( 2513) + 0 on 4;
+  architecture sim of grtestmod at 92( 3332) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/work/debug/debug.vhd" "73f7f9edc09f4b9aeb74c5be620606b8707deec2" "20260517063910.483":
+  package debug at 27( 1264) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/work/debug/cpu_disas.vhd" "04c204db6cbb32868d5367652e4dff77c8a70fac" "20260517063910.492":
+  entity cpu_disas at 27( 1271) + 0 on 4;
+  architecture behav of cpu_disas at 53( 1902) + 0 on 4;
+  entity gaisler_cpu_disas at 81( 2764) + 0 on 4;
+  architecture behav of gaisler_cpu_disas at 107( 3403) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "ahbrom.vhd" "f1bfae6297ac763dfa45ef5db5fbed9bebb52f18" "20260517063910.499":
+  entity ahbrom at 11( 451) + 0 on 4;
+  architecture rtl of ahbrom at 34( 929) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "leon3mp.vhd" "ed0c8bc1924e09c31b653daee81ad24e29c07d1d" "20260517063910.508":
+  entity leon3mp at 26( 1231) + 0 on 4;
+  architecture rtl of leon3mp at 153( 5814) + 0 on 4;

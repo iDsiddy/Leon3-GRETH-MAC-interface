@@ -1,0 +1,8 @@
+v 4
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/micron/sdram/mt48lc16m16a2.vhd" "f90faf7121a5b8d2806967e50381985ddcc441f3" "20260517063910.477":
+  package mti_pkg at 13( 314) + 0 on 4;
+  package body mti_pkg at 28( 752) + 0 on 4;
+  entity mt48lc16m16a2 at 193( 6624) + 0 on 4;
+  architecture behave of mt48lc16m16a2 at 252( 8703) + 0 on 4;
+file "/home/dhruv/Desktop/Leon3-GRETH-MAC-interface/grlib-gpl-2025.2-b4298/designs/leon3-gr-xc3s-1500/" "../../lib/micron/sdram/components.vhd" "67e8eee676e5a40f78377b5b5a045bac3079b9b8" "20260517063910.472":
+  package components at 21( 824) + 0 on 4;
